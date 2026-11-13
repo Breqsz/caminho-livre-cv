@@ -47,6 +47,8 @@ drive.mount('/content/drive')
 RUN_DIR = '/content/drive/MyDrive/caminho-livre-cv/runs'
 DATA_ROOT = '/content/rod'
 import os; os.makedirs(RUN_DIR, exist_ok=True)
+# ~48 mil arquivos: barras de progresso por arquivo travam a aba do navegador
+os.environ['HF_HUB_DISABLE_PROGRESS_BARS'] = '1'
 """),
         md("## 1. Preparar o dataset\nCópia fiel de `scripts/prepare_dataset.py` do repositório."),
         code("%%writefile prepare_dataset.py\n" + prepare_src),
