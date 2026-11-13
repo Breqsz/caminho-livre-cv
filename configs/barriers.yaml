@@ -1,0 +1,42 @@
+# Tradução das 25 classes do ROD-Dataset para categorias de acessibilidade do Caminho Livre.
+# Editável: mudar uma classe de categoria aqui não exige retreinar o modelo.
+# counted: entra no painel de contagem do overlay.
+privacy_classes: [Person]
+
+categories:
+  - key: calcada_obstruida
+    label: Calçada obstruída
+    color_bgr: [0, 140, 255]
+    counted: true
+    classes: [Dustbin, Traffic Cone, Traffic Barrel, Electrical Pole, Electrical Box, Plant Pot,
+              Bench, Chair, Bicycle Rack, Fire hydrant, Tree, Guard rail]
+  - key: veiculo
+    label: Veículo — verificar se está na calçada
+    color_bgr: [60, 60, 230]
+    counted: true
+    classes: [Car, Motorcycle, Bike]
+  - key: nivel
+    label: Possível barreira de nível
+    color_bgr: [200, 80, 200]
+    counted: true
+    classes: [Stairs]
+  - key: piso
+    label: Atenção ao piso
+    color_bgr: [0, 215, 255]
+    counted: true
+    classes: [Manhole]
+  - key: travessia
+    label: Travessia identificada
+    color_bgr: [80, 200, 80]
+    counted: false
+    classes: [Pedestrian crosswalk]
+  - key: privacidade
+    label: Pessoa (desfocada)
+    color_bgr: [160, 160, 160]
+    counted: false
+    classes: [Person]
+  - key: ignorado
+    label: Ignorado
+    color_bgr: [120, 120, 120]
+    counted: false
+    classes: [Building, Road, Traffic sign, Truck, Bus, Dog]
