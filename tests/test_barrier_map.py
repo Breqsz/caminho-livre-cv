@@ -48,3 +48,9 @@ def test_summarize_empty(cfg):
 
 def test_privacy_classes(cfg):
     assert cfg.privacy_classes == frozenset({"Person"})
+
+
+def test_category_lookup_is_case_insensitive(cfg):
+    assert categorize(det("car"), cfg) == "veiculo"
+    assert cfg.is_private("person") and cfg.is_private("Person")
+    assert not cfg.is_private("Car")

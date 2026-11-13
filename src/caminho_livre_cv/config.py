@@ -23,10 +23,15 @@ class BarrierConfig:
     privacy_classes: frozenset[str]
 
     def category_for(self, class_name: str) -> Category | None:
+        name = class_name.casefold()
         for cat in self.categories:
-            if class_name in cat.classes:
+            if any(name == c.casefold() for c in cat.classes):
                 return cat
         return None
+
+    def is_private(self, class_name: str) -> bool:
+        name = class_name.casefold()
+        return any(name == c.casefold() for c in self.privacy_classes)
 
 
 def load_barrier_config(path: Path = DEFAULT_CONFIG) -> BarrierConfig:
