@@ -1,10 +1,11 @@
 --extra-index-url https://download.pytorch.org/whl/cpu
-torch
-torchvision
-ultralytics>=8.3
-opencv-python
+torch==2.8.0
+torchvision==0.23.0
+ultralytics==8.3.253
+opencv-python>=4.6,<6
 numpy
 pyyaml
 pillow
 huggingface_hub
+requests
 pytest

@@ -1,0 +1,17 @@
+{
+  "weights": "best.pt",
+  "device": "cpu",
+  "hardware": {
+    "processor": "",
+    "cpu_count": 9,
+    "system": "Linux-6.18.57-x86_64-with-glibc2.41"
+  },
+  "torch": "2.8.0+cpu",
+  "imgsz": 320,
+  "conf": 0.15,
+  "warmup": 10,
+  "n": 140,
+  "mean_ms": 27.1,
+  "p95_ms": 31.2,
+  "fps": 36.9
+}

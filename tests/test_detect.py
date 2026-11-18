@@ -107,3 +107,11 @@ def test_lowercase_person_from_coco_weights_is_blurred(cfg):
     out, _ = detect.process_frame(f, fake_predict([Detection("person", 0.9, PERSON_BOX)]), cfg)
     x1, y1, x2, y2 = PERSON_BOX
     assert not np.array_equal(out[y1:y2, x1:x2], f[y1:y2, x1:x2])
+
+
+def test_conf_below_privacy_threshold_is_honored(cfg):
+    det = Detection("Dustbin", 0.1, (100, 120, 150, 170))
+    pred = fake_predict([det])
+    _, shown = detect.process_frame(noise(), pred, cfg, conf=0.08)
+    assert shown == [det]
+    assert pred.calls == [0.08]

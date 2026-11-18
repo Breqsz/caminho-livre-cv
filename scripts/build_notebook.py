@@ -40,7 +40,7 @@ GS FIAP 2026.2 · Applied Computer Vision · fine-tuning do YOLO11n no
 **Runtime:** Ambiente de execução → Alterar tipo → **GPU T4**. Checkpoints vão para o Google Drive,
 então o treino sobrevive a uma desconexão (use a célula de retomada).
 """),
-        code("!nvidia-smi\n%pip install -q ultralytics huggingface_hub"),
+        code("!nvidia-smi\n%pip install -q ultralytics==8.3.253 huggingface_hub"),
         code("""
 from google.colab import drive
 drive.mount('/content/drive')
@@ -53,7 +53,7 @@ os.environ['HF_HUB_DISABLE_PROGRESS_BARS'] = '1'
         md("## 1. Preparar o dataset\nCópia fiel de `scripts/prepare_dataset.py` do repositório."),
         code("%%writefile prepare_dataset.py\n" + prepare_src),
         code("!python prepare_dataset.py --root $DATA_ROOT --download --stats-out /content/class_stats.csv\n"
-             "!ls $DATA_ROOT/train/images | wc -l; ls $DATA_ROOT/valid/images | wc -l; ls $DATA_ROOT/test/images | wc -l"),
+             "!find $DATA_ROOT/train/images -name '*.jpg' | wc -l; ls $DATA_ROOT/valid/images | wc -l; ls $DATA_ROOT/test/images | wc -l"),
         md("## 2. Treino\nYOLO11n a partir dos pesos COCO · `imgsz=640` · 50 épocas · early stopping `patience=15` · `seed=0`."),
         code("""
 from ultralytics import YOLO
@@ -64,7 +64,9 @@ model.train(data=f'{DATA_ROOT}/data_cl.yaml', epochs=50, imgsz=640, patience=15,
         md("### 2b. Retomar (só se o Colab desconectou)\nRode as células 1–3 e a preparação de novo, depois esta."),
         code("""
 from ultralytics import YOLO
-YOLO(f'{RUN_DIR}/y11n/weights/last.pt').train(resume=True)
+RESUME = False  # Mude para True somente ao retomar um treino interrompido.
+if RESUME:
+    YOLO(f'{RUN_DIR}/y11n/weights/last.pt').train(resume=True)
 """),
         md("## 3. Avaliação no split **test** (não visto no treino)"),
         code("""
@@ -90,7 +92,7 @@ import shutil, os
 pack = '/content/artefatos'; os.makedirs(pack, exist_ok=True)
 tr, te = f'{RUN_DIR}/y11n', f'{RUN_DIR}/y11n_test'
 for src in [f'{tr}/weights/best.pt', f'{tr}/results.csv', f'{tr}/results.png', f'{tr}/args.yaml',
-            f'{te}/confusion_matrix_normalized.png', f'{te}/BoxPR_curve.png', f'{te}/val_batch0_pred.jpg',
+            f'{te}/confusion_matrix_normalized.png', f'{te}/BoxPR_curve.png',
             f'{RUN_DIR}/test_metrics.json', '/content/class_stats.csv']:
     if os.path.exists(src):
         shutil.copy(src, pack)

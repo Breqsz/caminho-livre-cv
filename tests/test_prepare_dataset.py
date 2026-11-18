@@ -37,3 +37,11 @@ def test_class_stats_counts(tmp_path):
     assert stats["Traffic Barrel"]["train"] == 1
     assert stats["Person"]["valid"] == 1
     assert stats["Person"]["train"] == 0
+
+
+def test_class_stats_includes_nested_train_shards(tmp_path):
+    _fake_dataset(tmp_path)
+    shard = tmp_path / "train" / "labels" / "0"
+    shard.mkdir()
+    (shard / "IMG_00002.txt").write_text("0 .5 .5 .1 .1\n")
+    assert class_stats(tmp_path)["Bike"]["train"] == 2

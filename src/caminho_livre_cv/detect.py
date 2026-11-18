@@ -50,7 +50,7 @@ def process_frame(
     blur: bool = True,
     fps: float | None = None,
 ) -> tuple[np.ndarray, list[Detection]]:
-    all_dets = predict(frame, PRIVACY_CONF)
+    all_dets = predict(frame, min(conf, PRIVACY_CONF) if blur else conf)
     if blur:
         frame = blur_regions(frame, [d.xyxy for d in all_dets if cfg.is_private(d.class_name)])
     shown = [d for d in all_dets if d.confidence >= conf]
@@ -58,7 +58,7 @@ def process_frame(
 
 
 def writer_fps(cap_fps: float) -> float:
-    if cap_fps is None or math.isnan(cap_fps) or cap_fps <= 0:
+    if cap_fps is None or not math.isfinite(cap_fps) or cap_fps <= 0:
         return 30.0
     return cap_fps
 
@@ -83,14 +83,14 @@ def _make_predict(weights: Path, imgsz: int) -> Predict:
 
     def predict(frame: np.ndarray, min_conf: float) -> list[Detection]:
         result = model.predict(frame, conf=min_conf, imgsz=imgsz, verbose=False)[0]
-        return results_to_detections(result, min_conf)
+        return results_to_detections(result.cpu(), min_conf)
 
     return predict
 
 
 def main(argv: list[str] | None = None) -> int:
     p = argparse.ArgumentParser(description="Detector de barreiras de acessibilidade em calçadas (Caminho Livre CV)")
-    p.add_argument("--source", default="0", help="índice da webcam, arquivo de vídeo ou pasta de imagens")
+    p.add_argument("--source", default="0", help="índice da webcam, arquivo de vídeo, imagem ou pasta de imagens")
     p.add_argument("--weights", type=Path, default=Path("models/best.pt"))
     p.add_argument("--config", type=Path, default=DEFAULT_CONFIG)
     p.add_argument("--conf", type=float, default=DEFAULT_CONF)
@@ -100,6 +100,8 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("--no-show", action="store_true", help="não abre janela")
     args = p.parse_args(argv)
 
+    if not 0 <= args.conf <= 1 or args.imgsz < 32:
+        return _fail("use --conf entre 0 e 1 e --imgsz de pelo menos 32")
     if not args.weights.is_file():
         return _fail(f"pesos não encontrados: {args.weights}")
     is_cam = args.source.isdigit()
@@ -111,30 +113,46 @@ def main(argv: list[str] | None = None) -> int:
     predict = _make_predict(args.weights, args.imgsz)
     blur = not args.no_blur
 
-    if not is_cam and src.is_dir():
+    if not is_cam and (src.is_dir() or src.suffix.lower() in IMAGE_EXTS):
+        input_folder = src if src.is_dir() else src.parent
+        if args.save and input_folder.resolve() == args.save.resolve():
+            return _fail("use uma pasta de saída diferente da pasta de entrada")
         if args.save:
             args.save.mkdir(parents=True, exist_ok=True)
-        for name, img in _image_frames(src):
+        frames = _image_frames(src) if src.is_dir() else [(src.name, cv2.imread(str(src)))]
+        processed = 0
+        for name, img in frames:
+            if img is None:
+                continue
+            processed += 1
             out, _ = process_frame(img, predict, cfg, args.conf, blur)
-            if args.save:
-                cv2.imwrite(str(args.save / name), out)
+            if args.save and not cv2.imwrite(str(args.save / name), out):
+                return _fail(f"não foi possível gravar a imagem: {name}")
             if not args.no_show:
                 cv2.imshow(WINDOW, out)
                 if cv2.waitKey(0) & 0xFF in (ord("q"), 27):
                     break
-        cv2.destroyAllWindows()
-        return 0
+        if not args.no_show:
+            cv2.destroyAllWindows()
+        return 0 if processed else _fail(f"nenhuma imagem legível em: {src}")
+
+    if args.save and args.save.suffix.lower() != ".mp4":
+        return _fail("use um arquivo .mp4 como saída de vídeo")
+    if args.save and not is_cam and src.resolve() == args.save.resolve():
+        return _fail("use um caminho de saída diferente do vídeo original")
 
     cap = cv2.VideoCapture(int(args.source) if is_cam else str(src))
     if not cap.isOpened():
         return _fail(f"não foi possível abrir a fonte: {args.source}")
     writer = None
+    processed = 0
     times: deque[float] = deque(maxlen=30)
     try:
         while True:
             ok, frame = cap.read()
             if not ok:
                 break
+            processed += 1
             t0 = time.perf_counter()
             fps = len(times) / sum(times) if times else None
             out, _ = process_frame(frame, predict, cfg, args.conf, blur, fps)
@@ -145,6 +163,8 @@ def main(argv: list[str] | None = None) -> int:
                     h, w = out.shape[:2]
                     fourcc = cv2.VideoWriter_fourcc(*"mp4v")
                     writer = cv2.VideoWriter(str(args.save), fourcc, writer_fps(cap.get(cv2.CAP_PROP_FPS)), (w, h))
+                    if not writer.isOpened():
+                        return _fail(f"não foi possível gravar o vídeo: {args.save}")
                 writer.write(out)
             if not args.no_show:
                 cv2.imshow(WINDOW, out)
@@ -154,8 +174,9 @@ def main(argv: list[str] | None = None) -> int:
         cap.release()
         if writer is not None:
             writer.release()
-        cv2.destroyAllWindows()
-    return 0
+        if not args.no_show:
+            cv2.destroyAllWindows()
+    return 0 if processed else _fail("a fonte não forneceu nenhum quadro")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,161 @@
+{
+  "split": "test",
+  "images": 150,
+  "imgsz": 320,
+  "map50": 0.4755,
+  "map50_95": 0.3221,
+  "precision": 0.5652,
+  "recall": 0.4571,
+  "classes": {
+    "Bike": {
+      "ap50": 0.5721,
+      "ap50_95": 0.4427,
+      "precision": 0.3183,
+      "recall": 0.8
+    },
+    "Building": {
+      "ap50": 0.9283,
+      "ap50_95": 0.6049,
+      "precision": 0.4757,
+      "recall": 1.0
+    },
+    "Car": {
+      "ap50": 0.5179,
+      "ap50_95": 0.3309,
+      "precision": 0.5348,
+      "recall": 0.5789
+    },
+    "Person": {
+      "ap50": 0.4096,
+      "ap50_95": 0.1757,
+      "precision": 0.3258,
+      "recall": 0.4917
+    },
+    "Stairs": {
+      "ap50": 0.4587,
+      "ap50_95": 0.3453,
+      "precision": 0.4032,
+      "recall": 0.4
+    },
+    "Traffic sign": {
+      "ap50": 0.0455,
+      "ap50_95": 0.0438,
+      "precision": 1.0,
+      "recall": 0.0
+    },
+    "Electrical Pole": {
+      "ap50": 0.089,
+      "ap50_95": 0.0672,
+      "precision": 1.0,
+      "recall": 0.0
+    },
+    "Road": {
+      "ap50": 0.582,
+      "ap50_95": 0.3392,
+      "precision": 0.4672,
+      "recall": 0.6
+    },
+    "Motorcycle": {
+      "ap50": 0.3568,
+      "ap50_95": 0.1817,
+      "precision": 0.3007,
+      "recall": 0.5738
+    },
+    "Dustbin": {
+      "ap50": 0.0915,
+      "ap50_95": 0.0537,
+      "precision": 0.1215,
+      "recall": 0.2
+    },
+    "Dog": {
+      "ap50": 0.1946,
+      "ap50_95": 0.1589,
+      "precision": 0.1109,
+      "recall": 0.133
+    },
+    "Manhole": {
+      "ap50": 0.7856,
+      "ap50_95": 0.6443,
+      "precision": 0.8918,
+      "recall": 0.7727
+    },
+    "Tree": {
+      "ap50": 0.6892,
+      "ap50_95": 0.5029,
+      "precision": 0.8078,
+      "recall": 0.5625
+    },
+    "Guard rail": {
+      "ap50": 0.3824,
+      "ap50_95": 0.1439,
+      "precision": 0.7616,
+      "recall": 0.2
+    },
+    "Pedestrian crosswalk": {
+      "ap50": 0.4957,
+      "ap50_95": 0.3696,
+      "precision": 0.3089,
+      "recall": 0.5
+    },
+    "Truck": {
+      "ap50": 0.4975,
+      "ap50_95": 0.3165,
+      "precision": 0.4796,
+      "recall": 0.7428
+    },
+    "Bus": {
+      "ap50": 0.7166,
+      "ap50_95": 0.5703,
+      "precision": 0.478,
+      "recall": 0.6667
+    },
+    "Bench": {
+      "ap50": 0.0289,
+      "ap50_95": 0.016,
+      "precision": 1.0,
+      "recall": 0.0
+    },
+    "Traffic Cone": {
+      "ap50": 0.6217,
+      "ap50_95": 0.3399,
+      "precision": 0.5572,
+      "recall": 0.625
+    },
+    "Fire hydrant": {
+      "ap50": 0.7108,
+      "ap50_95": 0.521,
+      "precision": 0.4098,
+      "recall": 0.8
+    },
+    "Traffic Barrel": {
+      "ap50": 0.7535,
+      "ap50_95": 0.6032,
+      "precision": 0.4716,
+      "recall": 0.625
+    },
+    "Plant Pot": {
+      "ap50": 0.6347,
+      "ap50_95": 0.5494,
+      "precision": 0.6454,
+      "recall": 0.5
+    },
+    "Electrical Box": {
+      "ap50": 0.4493,
+      "ap50_95": 0.2432,
+      "precision": 1.0,
+      "recall": 0.0
+    },
+    "Chair": {
+      "ap50": 0.3782,
+      "ap50_95": 0.3278,
+      "precision": 0.6275,
+      "recall": 0.3556
+    },
+    "Bicycle Rack": {
+      "ap50": 0.4987,
+      "ap50_95": 0.1605,
+      "precision": 0.6333,
+      "recall": 0.2999
+    }
+  }
+}

@@ -59,17 +59,23 @@ def render(frame: np.ndarray, dets: list[Detection], cfg: BarrierConfig, fps: fl
     img = Image.fromarray(cv2.cvtColor(out, cv2.COLOR_BGR2RGB))
     draw = ImageDraw.Draw(img)
     font = _font(fs)
-    for (x, y), text, color in labels:
-        tb = draw.textbbox((x, y), text, font=font)
-        draw.rectangle((tb[0] - 2, tb[1] - 2, tb[2] + 2, tb[3] + 2), fill=_rgb(color))
-        draw.text((x, y), text, font=font, fill=(0, 0, 0))
-
     panel = [f"{label}: {n}" for label, n in summarize(dets, cfg).items()] or ["Nenhuma barreira detectada"]
     if fps is not None:
         panel.append(f"FPS: {fps:.1f}")
     pad, line_h = 8, fs + 6
-    pw = max(draw.textlength(t, font=font) for t in panel) + 2 * pad
-    draw.rectangle((0, 0, pw, len(panel) * line_h + pad), fill=(15, 15, 15))
+    panel_width = max(draw.textlength(t, font=font) for t in panel) + 2 * pad
+    panel_height = len(panel) * line_h + pad
+
+    for (x, y), text, color in labels:
+        width = draw.textlength(text, font=font)
+        x = max(2, min(x, w - width - 3))
+        if x <= panel_width + 2 and y < panel_height + 2:
+            y = panel_height + 4
+        tb = draw.textbbox((x, y), text, font=font)
+        draw.rectangle((tb[0] - 2, tb[1] - 2, tb[2] + 2, tb[3] + 2), fill=_rgb(color))
+        draw.text((x, y), text, font=font, fill=(0, 0, 0))
+
+    draw.rectangle((0, 0, panel_width, panel_height), fill=(15, 15, 15))
     for i, t in enumerate(panel):
         draw.text((pad, pad // 2 + i * line_h), t, font=font, fill=(240, 240, 240))
 

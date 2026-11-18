@@ -41,7 +41,7 @@ def write_data_yaml(root: Path, out: Path) -> Path:
 def class_stats(root: Path) -> dict[str, dict[str, int]]:
     stats = {name: {split: 0 for split in SPLITS} for name in CLASS_NAMES}
     for split in SPLITS:
-        for label in (Path(root) / split / "labels").glob("*.txt"):
+        for label in (Path(root) / split / "labels").rglob("*.txt"):
             for line in label.read_text(encoding="utf-8").splitlines():
                 parts = line.split()
                 if parts:

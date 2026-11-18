@@ -1,0 +1,876 @@
+split,image_filename,label_filename,num_objects,classes_present,class_names_present
+train,IMG_08340.jpg,IMG_08340.txt,1,24,Bicycle Rack
+train,IMG_10609.jpg,IMG_10609.txt,1,24,Bicycle Rack
+train,IMG_08601.jpg,IMG_08601.txt,1,24,Bicycle Rack
+train,IMG_08620.jpg,IMG_08620.txt,1,24,Bicycle Rack
+train,IMG_08342.jpg,IMG_08342.txt,1,24,Bicycle Rack
+train,IMG_08341.jpg,IMG_08341.txt,1,24,Bicycle Rack
+train,IMG_10608.jpg,IMG_10608.txt,1,24,Bicycle Rack
+train,IMG_08348.jpg,IMG_08348.txt,1,24,Bicycle Rack
+train,IMG_08603.jpg,IMG_08603.txt,1,24,Bicycle Rack
+train,IMG_09556.jpg,IMG_09556.txt,2,24,Bicycle Rack
+train,IMG_08298.jpg,IMG_08298.txt,2,24,Bicycle Rack
+train,IMG_10574.jpg,IMG_10574.txt,1,24,Bicycle Rack
+train,IMG_10572.jpg,IMG_10572.txt,1,24,Bicycle Rack
+train,IMG_08303.jpg,IMG_08303.txt,2,24,Bicycle Rack
+train,IMG_10590.jpg,IMG_10590.txt,1,24,Bicycle Rack
+train,IMG_08611.jpg,IMG_08611.txt,1,24,Bicycle Rack
+train,IMG_08598.jpg,IMG_08598.txt,1,24,Bicycle Rack
+train,IMG_08854.jpg,IMG_08854.txt,1,19,Fire hydrant
+train,IMG_08828.jpg,IMG_08828.txt,1,19,Fire hydrant
+train,IMG_10235.jpg,IMG_10235.txt,1,19,Fire hydrant
+train,IMG_08962.jpg,IMG_08962.txt,1,19,Fire hydrant
+train,IMG_10226.jpg,IMG_10226.txt,1,19,Fire hydrant
+train,IMG_08966.jpg,IMG_08966.txt,1,19,Fire hydrant
+train,IMG_08865.jpg,IMG_08865.txt,1,19,Fire hydrant
+train,IMG_08964.jpg,IMG_08964.txt,1,19,Fire hydrant
+train,IMG_08985.jpg,IMG_08985.txt,1,19,Fire hydrant
+train,IMG_08983.jpg,IMG_08983.txt,1,19,Fire hydrant
+train,IMG_08859.jpg,IMG_08859.txt,1,19,Fire hydrant
+train,IMG_08875.jpg,IMG_08875.txt,1,19,Fire hydrant
+train,IMG_08891.jpg,IMG_08891.txt,1,19,Fire hydrant
+train,IMG_08856.jpg,IMG_08856.txt,1,19,Fire hydrant
+train,IMG_08767.jpg,IMG_08767.txt,1,19,Fire hydrant
+train,IMG_10230.jpg,IMG_10230.txt,1,19,Fire hydrant
+train,IMG_08881.jpg,IMG_08881.txt,1,19,Fire hydrant
+train,IMG_12391.jpg,IMG_12391.txt,1,0,Bike
+train,IMG_06226.jpg,IMG_06226.txt,1,0,Bike
+train,IMG_15217.jpg,IMG_15217.txt,1,0,Bike
+train,IMG_11608.jpg,IMG_11608.txt,1,0,Bike
+train,IMG_04009.jpg,IMG_04009.txt,2,0,Bike
+train,IMG_12363.jpg,IMG_12363.txt,1,0,Bike
+train,IMG_04677.jpg,IMG_04677.txt,1,0,Bike
+train,IMG_05125.jpg,IMG_05125.txt,1,0,Bike
+train,IMG_06213.jpg,IMG_06213.txt,1,0,Bike
+train,IMG_06239.jpg,IMG_06239.txt,1,0,Bike
+train,IMG_11605.jpg,IMG_11605.txt,2,0,Bike
+train,IMG_15190.jpg,IMG_15190.txt,1,0,Bike
+train,IMG_15200.jpg,IMG_15200.txt,1,0,Bike
+train,IMG_15567.jpg,IMG_15567.txt,1,0,Bike
+train,IMG_15671.jpg,IMG_15671.txt,1,0,Bike
+train,IMG_03711.jpg,IMG_03711.txt,1,0,Bike
+train,IMG_12516.jpg,IMG_12516.txt,1,0,Bike
+train,IMG_09918.jpg,IMG_09918.txt,4,20,Teraffic Barrel
+train,IMG_08422.jpg,IMG_08422.txt,2,20,Teraffic Barrel
+train,IMG_09907.jpg,IMG_09907.txt,3,20,Teraffic Barrel
+train,IMG_09916.jpg,IMG_09916.txt,4,20,Teraffic Barrel
+train,IMG_08473.jpg,IMG_08473.txt,2,20,Teraffic Barrel
+train,IMG_08526.jpg,IMG_08526.txt,1,20,Teraffic Barrel
+train,IMG_08589.jpg,IMG_08589.txt,1,20,Teraffic Barrel
+train,IMG_09893.jpg,IMG_09893.txt,1,20,Teraffic Barrel
+train,IMG_09948.jpg,IMG_09948.txt,5,20,Teraffic Barrel
+train,IMG_08428.jpg,IMG_08428.txt,2,20,Teraffic Barrel
+train,IMG_09933.jpg,IMG_09933.txt,2,20,Teraffic Barrel
+train,IMG_08509.jpg,IMG_08509.txt,1,20,Teraffic Barrel
+train,IMG_08556.jpg,IMG_08556.txt,1,20,Teraffic Barrel
+train,IMG_08361.jpg,IMG_08361.txt,1,20,Teraffic Barrel
+train,IMG_08521.jpg,IMG_08521.txt,1,20,Teraffic Barrel
+train,IMG_08652.jpg,IMG_08652.txt,1,20,Teraffic Barrel
+train,IMG_09946.jpg,IMG_09946.txt,2,20,Teraffic Barrel
+train,IMG_09867.jpg,IMG_09867.txt,1,22,Electrical Box
+train,IMG_09619.jpg,IMG_09619.txt,1,22,Electrical Box
+train,IMG_09812.jpg,IMG_09812.txt,1,22,Electrical Box
+train,IMG_09810.jpg,IMG_09810.txt,1,22,Electrical Box
+train,IMG_09517.jpg,IMG_09517.txt,1,22,Electrical Box
+train,IMG_09610.jpg,IMG_09610.txt,1,22,Electrical Box
+train,IMG_09710.jpg,IMG_09710.txt,1,22,Electrical Box
+train,IMG_09759.jpg,IMG_09759.txt,2,22,Electrical Box
+train,IMG_09721.jpg,IMG_09721.txt,1,22,Electrical Box
+train,IMG_09730.jpg,IMG_09730.txt,1,22,Electrical Box
+train,IMG_09459.jpg,IMG_09459.txt,1,22,Electrical Box
+train,IMG_09537.jpg,IMG_09537.txt,2,22,Electrical Box
+train,IMG_09839.jpg,IMG_09839.txt,1,22,Electrical Box
+train,IMG_09637.jpg,IMG_09637.txt,1,22,Electrical Box
+train,IMG_09790.jpg,IMG_09790.txt,1,22,Electrical Box
+train,IMG_09526.jpg,IMG_09526.txt,1,22,Electrical Box
+train,IMG_09495.jpg,IMG_09495.txt,2,22,Electrical Box
+train,IMG_09336.jpg,IMG_09336.txt,3,21,Plant Pot
+train,IMG_00054.jpg,IMG_00054.txt,1,21,Plant Pot
+train,IMG_00152.jpg,IMG_00152.txt,1,21,Plant Pot
+train,IMG_09263.jpg,IMG_09263.txt,2,21,Plant Pot
+train,IMG_09351.jpg,IMG_09351.txt,3,21,Plant Pot
+train,IMG_00161.jpg,IMG_00161.txt,1,21,Plant Pot
+train,IMG_00144.jpg,IMG_00144.txt,1,21,Plant Pot
+train,IMG_08695.jpg,IMG_08695.txt,1,21,Plant Pot
+train,IMG_09251.jpg,IMG_09251.txt,2,21,Plant Pot
+train,IMG_09221.jpg,IMG_09221.txt,1,21,Plant Pot
+train,IMG_08660.jpg,IMG_08660.txt,1,21,Plant Pot
+train,IMG_00089.jpg,IMG_00089.txt,1,21,Plant Pot
+train,IMG_00148.jpg,IMG_00148.txt,1,21,Plant Pot
+train,IMG_08745.jpg,IMG_08745.txt,1,21,Plant Pot
+train,IMG_00120.jpg,IMG_00120.txt,1,21,Plant Pot
+train,IMG_09189.jpg,IMG_09189.txt,1,21,Plant Pot
+train,IMG_09290.jpg,IMG_09290.txt,2,21,Plant Pot
+train,IMG_10668.jpg,IMG_10668.txt,1,6,Electrical Pole
+train,IMG_14655.jpg,IMG_14655.txt,2,6,Electrical Pole
+train,IMG_16749.jpg,IMG_16749.txt,8,"1,2,6,7,8,12","Building,Car,Electrical Pole,Road,Motorcycle,Tree"
+train,IMG_10700.jpg,IMG_10700.txt,1,6,Electrical Pole
+train,IMG_16898.jpg,IMG_16898.txt,8,"3,6,7,8,12","Person,Electrical Pole,Road,Motorcycle,Tree"
+train,IMG_14685.jpg,IMG_14685.txt,1,6,Electrical Pole
+train,IMG_10712.jpg,IMG_10712.txt,1,6,Electrical Pole
+train,IMG_17594.jpg,IMG_17594.txt,1,6,Electrical Pole
+train,IMG_16902.jpg,IMG_16902.txt,8,"1,6,7,9,12","Building,Electrical Pole,Road,Dustbin,Tree"
+train,IMG_10736.jpg,IMG_10736.txt,1,6,Electrical Pole
+train,IMG_16879.jpg,IMG_16879.txt,6,"6,7,8,12","Electrical Pole,Road,Motorcycle,Tree"
+train,IMG_10615.jpg,IMG_10615.txt,1,6,Electrical Pole
+train,IMG_10617.jpg,IMG_10617.txt,1,6,Electrical Pole
+train,IMG_14721.jpg,IMG_14721.txt,1,6,Electrical Pole
+train,IMG_16862.jpg,IMG_16862.txt,7,"3,6,8,12","Person,Electrical Pole,Motorcycle,Tree"
+train,IMG_14722.jpg,IMG_14722.txt,1,6,Electrical Pole
+train,IMG_14756.jpg,IMG_14756.txt,1,6,Electrical Pole
+train,IMG_11390.jpg,IMG_11390.txt,1,16,Bus
+train,IMG_12910.jpg,IMG_12910.txt,7,16,Bus
+train,IMG_12847.jpg,IMG_12847.txt,3,"2,16","Car,Bus"
+train,IMG_12939.jpg,IMG_12939.txt,2,16,Bus
+train,IMG_12722.jpg,IMG_12722.txt,1,16,Bus
+train,IMG_12778.jpg,IMG_12778.txt,1,16,Bus
+train,IMG_13022.jpg,IMG_13022.txt,2,16,Bus
+train,IMG_12936.jpg,IMG_12936.txt,3,16,Bus
+train,IMG_12809.jpg,IMG_12809.txt,1,16,Bus
+train,IMG_12816.jpg,IMG_12816.txt,3,16,Bus
+train,IMG_11358.jpg,IMG_11358.txt,1,16,Bus
+train,IMG_12746.jpg,IMG_12746.txt,1,16,Bus
+train,IMG_12760.jpg,IMG_12760.txt,2,16,Bus
+train,IMG_12977.jpg,IMG_12977.txt,2,16,Bus
+train,IMG_11404.jpg,IMG_11404.txt,2,16,Bus
+train,IMG_13007.jpg,IMG_13007.txt,1,16,Bus
+train,IMG_11351.jpg,IMG_11351.txt,2,"2,16","Car,Bus"
+train,IMG_02941.jpg,IMG_02941.txt,1,7,Road
+train,IMG_16550.jpg,IMG_16550.txt,6,"7,8,12","Road,Motorcycle,Tree"
+train,IMG_17015.jpg,IMG_17015.txt,4,"1,5,7,12","Building,Traffic sign,Road,Tree"
+train,IMG_16519.jpg,IMG_16519.txt,5,"1,5,7,12","Building,Traffic sign,Road,Tree"
+train,IMG_16776.jpg,IMG_16776.txt,8,"1,3,7,8","Building,Person,Road,Motorcycle"
+train,IMG_02867.jpg,IMG_02867.txt,1,7,Road
+train,IMG_02896.jpg,IMG_02896.txt,1,7,Road
+train,IMG_16805.jpg,IMG_16805.txt,5,"1,3,7,8,12","Building,Person,Road,Motorcycle,Tree"
+train,IMG_16794.jpg,IMG_16794.txt,5,"1,3,7,12","Building,Person,Road,Tree"
+train,IMG_16589.jpg,IMG_16589.txt,8,"1,3,7,8,12","Building,Person,Road,Motorcycle,Tree"
+train,IMG_17008.jpg,IMG_17008.txt,6,"1,5,7,12","Building,Traffic sign,Road,Tree"
+train,IMG_16604.jpg,IMG_16604.txt,5,"1,2,7,8,12","Building,Car,Road,Motorcycle,Tree"
+train,IMG_16945.jpg,IMG_16945.txt,6,"5,7,12","Traffic sign,Road,Tree"
+train,IMG_13525.jpg,IMG_13525.txt,3,18,Traffic Cone
+train,IMG_16234.jpg,IMG_16234.txt,1,18,Traffic Cone
+train,IMG_08311.jpg,IMG_08311.txt,1,18,Traffic Cone
+train,IMG_16228.jpg,IMG_16228.txt,1,18,Traffic Cone
+train,IMG_08207.jpg,IMG_08207.txt,1,18,Traffic Cone
+train,IMG_16164.jpg,IMG_16164.txt,2,18,Traffic Cone
+train,IMG_16168.jpg,IMG_16168.txt,1,18,Traffic Cone
+train,IMG_09700.jpg,IMG_09700.txt,1,18,Traffic Cone
+train,IMG_08322.jpg,IMG_08322.txt,1,18,Traffic Cone
+train,IMG_08243.jpg,IMG_08243.txt,1,18,Traffic Cone
+train,IMG_00537.jpg,IMG_00537.txt,1,18,Traffic Cone
+train,IMG_08326.jpg,IMG_08326.txt,1,18,Traffic Cone
+train,IMG_13425.jpg,IMG_13425.txt,1,18,Traffic Cone
+train,IMG_16069.jpg,IMG_16069.txt,1,18,Traffic Cone
+train,IMG_17133.jpg,IMG_17133.txt,5,18,Traffic Cone
+train,IMG_16174.jpg,IMG_16174.txt,1,18,Traffic Cone
+train,IMG_10596.jpg,IMG_10596.txt,1,18,Traffic Cone
+train,IMG_11937.jpg,IMG_11937.txt,3,"2,15","Car,Truck"
+train,IMG_05442.jpg,IMG_05442.txt,1,15,Truck
+train,IMG_11996.jpg,IMG_11996.txt,1,15,Truck
+train,IMG_11921.jpg,IMG_11921.txt,1,15,Truck
+train,IMG_05444.jpg,IMG_05444.txt,1,15,Truck
+train,IMG_14453.jpg,IMG_14453.txt,1,15,Truck
+train,IMG_18056.jpg,IMG_18056.txt,1,15,Truck
+train,IMG_11962.jpg,IMG_11962.txt,2,"2,15","Car,Truck"
+train,IMG_11007.jpg,IMG_11007.txt,1,15,Truck
+train,IMG_11980.jpg,IMG_11980.txt,1,15,Truck
+train,IMG_11908.jpg,IMG_11908.txt,1,15,Truck
+train,IMG_11946.jpg,IMG_11946.txt,1,15,Truck
+train,IMG_12016.jpg,IMG_12016.txt,7,15,Truck
+train,IMG_11844.jpg,IMG_11844.txt,1,15,Truck
+train,IMG_18010.jpg,IMG_18010.txt,1,15,Truck
+train,IMG_11954.jpg,IMG_11954.txt,1,15,Truck
+train,IMG_05590.jpg,IMG_05590.txt,2,"2,15","Car,Truck"
+train,IMG_11629.jpg,IMG_11629.txt,1,5,Traffic sign
+train,IMG_07314.jpg,IMG_07314.txt,1,5,Traffic sign
+train,IMG_11685.jpg,IMG_11685.txt,1,5,Traffic sign
+train,IMG_07387.jpg,IMG_07387.txt,1,5,Traffic sign
+train,IMG_07223.jpg,IMG_07223.txt,1,5,Traffic sign
+train,IMG_11645.jpg,IMG_11645.txt,1,5,Traffic sign
+train,IMG_06269.jpg,IMG_06269.txt,1,5,Traffic sign
+train,IMG_11251.jpg,IMG_11251.txt,1,5,Traffic sign
+train,IMG_16971.jpg,IMG_16971.txt,6,"1,5,7,12","Building,Traffic sign,Road,Tree"
+train,IMG_11689.jpg,IMG_11689.txt,1,5,Traffic sign
+train,IMG_11058.jpg,IMG_11058.txt,1,5,Traffic sign
+train,IMG_11604.jpg,IMG_11604.txt,1,5,Traffic sign
+train,IMG_07044.jpg,IMG_07044.txt,1,5,Traffic sign
+train,IMG_12628.jpg,IMG_12628.txt,1,10,Dog
+train,IMG_12403.jpg,IMG_12403.txt,1,10,Dog
+train,IMG_14570.jpg,IMG_14570.txt,1,10,Dog
+train,IMG_12533.jpg,IMG_12533.txt,1,10,Dog
+train,IMG_16437.jpg,IMG_16437.txt,1,10,Dog
+train,IMG_18309.jpg,IMG_18309.txt,1,10,Dog
+train,IMG_16374.jpg,IMG_16374.txt,1,10,Dog
+train,IMG_16407.jpg,IMG_16407.txt,1,10,Dog
+train,IMG_12587.jpg,IMG_12587.txt,1,10,Dog
+train,IMG_15887.jpg,IMG_15887.txt,1,10,Dog
+train,IMG_16330.jpg,IMG_16330.txt,1,10,Dog
+train,IMG_13420.jpg,IMG_13420.txt,1,10,Dog
+train,IMG_13392.jpg,IMG_13392.txt,1,10,Dog
+train,IMG_18220.jpg,IMG_18220.txt,1,10,Dog
+train,IMG_14593.jpg,IMG_14593.txt,1,10,Dog
+train,IMG_18948.jpg,IMG_18948.txt,1,10,Dog
+train,IMG_18934.jpg,IMG_18934.txt,1,10,Dog
+train,IMG_01067.jpg,IMG_01067.txt,1,8,Motorcycle
+train,IMG_01108.jpg,IMG_01108.txt,1,8,Motorcycle
+train,IMG_00672.jpg,IMG_00672.txt,1,8,Motorcycle
+train,IMG_01180.jpg,IMG_01180.txt,1,8,Motorcycle
+train,IMG_01222.jpg,IMG_01222.txt,1,8,Motorcycle
+train,IMG_00650.jpg,IMG_00650.txt,1,8,Motorcycle
+train,IMG_00988.jpg,IMG_00988.txt,1,8,Motorcycle
+train,IMG_01153.jpg,IMG_01153.txt,1,8,Motorcycle
+train,IMG_07642.jpg,IMG_07642.txt,1,17,Bench
+train,IMG_08034.jpg,IMG_08034.txt,1,17,Bench
+train,IMG_03238.jpg,IMG_03238.txt,1,17,Bench
+train,IMG_03267.jpg,IMG_03267.txt,1,17,Bench
+train,IMG_03195.jpg,IMG_03195.txt,1,17,Bench
+train,IMG_08019.jpg,IMG_08019.txt,1,17,Bench
+train,IMG_03258.jpg,IMG_03258.txt,1,17,Bench
+train,IMG_08015.jpg,IMG_08015.txt,2,17,Bench
+train,IMG_07981.jpg,IMG_07981.txt,2,17,Bench
+train,IMG_07637.jpg,IMG_07637.txt,1,17,Bench
+train,IMG_07666.jpg,IMG_07666.txt,1,17,Bench
+train,IMG_08017.jpg,IMG_08017.txt,1,17,Bench
+train,IMG_07851.jpg,IMG_07851.txt,1,17,Bench
+train,IMG_07660.jpg,IMG_07660.txt,1,17,Bench
+train,IMG_07949.jpg,IMG_07949.txt,1,17,Bench
+train,IMG_08008.jpg,IMG_08008.txt,2,17,Bench
+train,IMG_07886.jpg,IMG_07886.txt,1,17,Bench
+train,IMG_07576.jpg,IMG_07576.txt,6,4,Stairs
+train,IMG_18613.jpg,IMG_18613.txt,1,4,Stairs
+train,IMG_02783.jpg,IMG_02783.txt,1,4,Stairs
+train,IMG_18487.jpg,IMG_18487.txt,1,4,Stairs
+train,IMG_18584.jpg,IMG_18584.txt,1,4,Stairs
+train,IMG_02767.jpg,IMG_02767.txt,1,4,Stairs
+train,IMG_18467.jpg,IMG_18467.txt,1,4,Stairs
+train,IMG_18593.jpg,IMG_18593.txt,1,4,Stairs
+train,IMG_18909.jpg,IMG_18909.txt,1,4,Stairs
+train,IMG_03562.jpg,IMG_03562.txt,1,4,Stairs
+train,IMG_18486.jpg,IMG_18486.txt,1,4,Stairs
+train,IMG_07499.jpg,IMG_07499.txt,1,4,Stairs
+train,IMG_18630.jpg,IMG_18630.txt,1,4,Stairs
+train,IMG_09332.jpg,IMG_09332.txt,2,4,Stairs
+train,IMG_09051.jpg,IMG_09051.txt,1,4,Stairs
+train,IMG_18387.jpg,IMG_18387.txt,1,4,Stairs
+train,IMG_09375.jpg,IMG_09375.txt,1,4,Stairs
+train,IMG_17766.jpg,IMG_17766.txt,1,1,Building
+train,IMG_15147.jpg,IMG_15147.txt,1,1,Building
+train,IMG_14906.jpg,IMG_14906.txt,1,1,Building
+train,IMG_17669.jpg,IMG_17669.txt,1,1,Building
+train,IMG_17722.jpg,IMG_17722.txt,1,1,Building
+train,IMG_14996.jpg,IMG_14996.txt,1,1,Building
+train,IMG_13935.jpg,IMG_13935.txt,3,9,Dustbin
+train,IMG_14063.jpg,IMG_14063.txt,1,9,Dustbin
+train,IMG_07709.jpg,IMG_07709.txt,1,9,Dustbin
+train,IMG_13732.jpg,IMG_13732.txt,1,9,Dustbin
+train,IMG_13743.jpg,IMG_13743.txt,3,9,Dustbin
+train,IMG_13917.jpg,IMG_13917.txt,1,9,Dustbin
+train,IMG_07695.jpg,IMG_07695.txt,1,9,Dustbin
+train,IMG_14024.jpg,IMG_14024.txt,2,9,Dustbin
+train,IMG_13721.jpg,IMG_13721.txt,1,9,Dustbin
+train,IMG_13997.jpg,IMG_13997.txt,1,9,Dustbin
+train,IMG_14116.jpg,IMG_14116.txt,4,9,Dustbin
+train,IMG_10152.jpg,IMG_10152.txt,1,9,Dustbin
+train,IMG_14120.jpg,IMG_14120.txt,1,9,Dustbin
+train,IMG_14026.jpg,IMG_14026.txt,2,9,Dustbin
+train,IMG_14053.jpg,IMG_14053.txt,1,9,Dustbin
+train,IMG_14044.jpg,IMG_14044.txt,3,9,Dustbin
+train,IMG_05408.jpg,IMG_05408.txt,2,23,Chair
+train,IMG_02229.jpg,IMG_02229.txt,1,23,Chair
+train,IMG_02187.jpg,IMG_02187.txt,2,23,Chair
+train,IMG_07025.jpg,IMG_07025.txt,1,23,Chair
+train,IMG_06987.jpg,IMG_06987.txt,1,23,Chair
+train,IMG_05366.jpg,IMG_05366.txt,2,23,Chair
+train,IMG_13226.jpg,IMG_13226.txt,1,23,Chair
+train,IMG_13072.jpg,IMG_13072.txt,1,23,Chair
+train,IMG_05356.jpg,IMG_05356.txt,2,23,Chair
+train,IMG_13200.jpg,IMG_13200.txt,1,23,Chair
+train,IMG_01762.jpg,IMG_01762.txt,1,23,Chair
+train,IMG_15677.jpg,IMG_15677.txt,1,23,Chair
+train,IMG_12171.jpg,IMG_12171.txt,1,23,Chair
+train,IMG_01775.jpg,IMG_01775.txt,2,23,Chair
+train,IMG_13664.jpg,IMG_13664.txt,1,23,Chair
+train,IMG_05291.jpg,IMG_05291.txt,1,23,Chair
+train,IMG_06924.jpg,IMG_06924.txt,1,23,Chair
+train,IMG_10305.jpg,IMG_10305.txt,1,13,Guard rail
+train,IMG_10468.jpg,IMG_10468.txt,1,13,Guard rail
+train,IMG_09967.jpg,IMG_09967.txt,1,13,Guard rail
+train,IMG_12462.jpg,IMG_12462.txt,1,13,Guard rail
+train,IMG_15566.jpg,IMG_15566.txt,1,13,Guard rail
+train,IMG_04365.jpg,IMG_04365.txt,1,13,Guard rail
+train,IMG_01412.jpg,IMG_01412.txt,3,13,Guard rail
+train,IMG_01408.jpg,IMG_01408.txt,4,13,Guard rail
+train,IMG_10518.jpg,IMG_10518.txt,1,13,Guard rail
+train,IMG_15327.jpg,IMG_15327.txt,1,13,Guard rail
+train,IMG_10373.jpg,IMG_10373.txt,1,13,Guard rail
+train,IMG_09103.jpg,IMG_09103.txt,1,13,Guard rail
+train,IMG_04340.jpg,IMG_04340.txt,1,13,Guard rail
+train,IMG_10388.jpg,IMG_10388.txt,1,13,Guard rail
+train,IMG_15623.jpg,IMG_15623.txt,2,13,Guard rail
+train,IMG_09084.jpg,IMG_09084.txt,1,13,Guard rail
+train,IMG_14201.jpg,IMG_14201.txt,1,13,Guard rail
+train,IMG_03320.jpg,IMG_03320.txt,1,12,Tree
+train,IMG_02492.jpg,IMG_02492.txt,1,12,Tree
+train,IMG_04567.jpg,IMG_04567.txt,1,14,Pedestrian crosswalk
+train,IMG_02135.jpg,IMG_02135.txt,1,14,Pedestrian crosswalk
+train,IMG_02240.jpg,IMG_02240.txt,1,14,Pedestrian crosswalk
+train,IMG_03878.jpg,IMG_03878.txt,1,14,Pedestrian crosswalk
+train,IMG_04325.jpg,IMG_04325.txt,1,14,Pedestrian crosswalk
+train,IMG_04246.jpg,IMG_04246.txt,1,14,Pedestrian crosswalk
+train,IMG_01705.jpg,IMG_01705.txt,1,14,Pedestrian crosswalk
+train,IMG_04040.jpg,IMG_04040.txt,1,14,Pedestrian crosswalk
+train,IMG_02542.jpg,IMG_02542.txt,1,14,Pedestrian crosswalk
+train,IMG_03409.jpg,IMG_03409.txt,1,14,Pedestrian crosswalk
+train,IMG_02241.jpg,IMG_02241.txt,1,14,Pedestrian crosswalk
+train,IMG_04653.jpg,IMG_04653.txt,3,14,Pedestrian crosswalk
+train,IMG_01800.jpg,IMG_01800.txt,1,14,Pedestrian crosswalk
+train,IMG_02233.jpg,IMG_02233.txt,1,14,Pedestrian crosswalk
+train,IMG_04697.jpg,IMG_04697.txt,1,14,Pedestrian crosswalk
+train,IMG_02064.jpg,IMG_02064.txt,1,14,Pedestrian crosswalk
+train,IMG_02523.jpg,IMG_02523.txt,1,14,Pedestrian crosswalk
+train,IMG_12327.jpg,IMG_12327.txt,4,11,Manhole
+train,IMG_12134.jpg,IMG_12134.txt,1,11,Manhole
+train,IMG_07331.jpg,IMG_07331.txt,1,11,Manhole
+train,IMG_06162.jpg,IMG_06162.txt,1,11,Manhole
+train,IMG_04368.jpg,IMG_04368.txt,1,11,Manhole
+train,IMG_05100.jpg,IMG_05100.txt,1,11,Manhole
+train,IMG_11596.jpg,IMG_11596.txt,1,11,Manhole
+train,IMG_05122.jpg,IMG_05122.txt,1,11,Manhole
+train,IMG_11808.jpg,IMG_11808.txt,1,11,Manhole
+train,IMG_04621.jpg,IMG_04621.txt,1,11,Manhole
+train,IMG_11552.jpg,IMG_11552.txt,1,11,Manhole
+train,IMG_06180.jpg,IMG_06180.txt,1,11,Manhole
+train,IMG_11460.jpg,IMG_11460.txt,1,11,Manhole
+train,IMG_03742.jpg,IMG_03742.txt,1,11,Manhole
+train,IMG_10807.jpg,IMG_10807.txt,1,11,Manhole
+train,IMG_05038.jpg,IMG_05038.txt,1,11,Manhole
+train,IMG_04053.jpg,IMG_04053.txt,1,11,Manhole
+train,IMG_16161.jpg,IMG_16161.txt,1,3,Person
+train,IMG_00387.jpg,IMG_00387.txt,6,3,Person
+train,IMG_13660.jpg,IMG_13660.txt,4,3,Person
+train,IMG_12431.jpg,IMG_12431.txt,1,3,Person
+train,IMG_15284.jpg,IMG_15284.txt,1,3,Person
+train,IMG_18662.jpg,IMG_18662.txt,2,3,Person
+train,IMG_17171.jpg,IMG_17171.txt,1,3,Person
+train,IMG_19140.jpg,IMG_19140.txt,15,3,Person
+train,IMG_17234.jpg,IMG_17234.txt,1,3,Person
+train,IMG_04937.jpg,IMG_04937.txt,1,3,Person
+train,IMG_13662.jpg,IMG_13662.txt,5,3,Person
+train,IMG_00255.jpg,IMG_00255.txt,1,2,Car
+train,IMG_00244.jpg,IMG_00244.txt,1,2,Car
+train,IMG_19171.jpg,IMG_19171.txt,1,2,Car
+train,IMG_00452.jpg,IMG_00452.txt,1,2,Car
+train,IMG_06827.jpg,IMG_06827.txt,2,2,Car
+train,IMG_05795.jpg,IMG_05795.txt,1,2,Car
+train,IMG_18796.jpg,IMG_18796.txt,3,2,Car
+train,IMG_14353.jpg,IMG_14353.txt,1,2,Car
+train,IMG_01106.jpg,IMG_01106.txt,1,2,Car
+train,IMG_06850.jpg,IMG_06850.txt,1,2,Car
+train,IMG_15714.jpg,IMG_15714.txt,2,2,Car
+train,IMG_01188.jpg,IMG_01188.txt,1,2,Car
+train,IMG_03921.jpg,IMG_03921.txt,1,12,Tree
+train,IMG_05494.jpg,IMG_05494.txt,2,2,Car
+train,IMG_18979.jpg,IMG_18979.txt,2,2,Car
+train,IMG_06726.jpg,IMG_06726.txt,1,2,Car
+train,IMG_18785.jpg,IMG_18785.txt,3,2,Car
+train,IMG_00453.jpg,IMG_00453.txt,1,2,Car
+train,IMG_18930.jpg,IMG_18930.txt,1,2,Car
+train,IMG_06307.jpg,IMG_06307.txt,1,2,Car
+train,IMG_06773.jpg,IMG_06773.txt,2,2,Car
+train,IMG_00205.jpg,IMG_00205.txt,1,2,Car
+train,IMG_15002.jpg,IMG_15002.txt,0,,
+train,IMG_05580.jpg,IMG_05580.txt,1,2,Car
+train,IMG_05109.jpg,IMG_05109.txt,1,12,Tree
+train,IMG_03734.jpg,IMG_03734.txt,1,12,Tree
+train,IMG_00319.jpg,IMG_00319.txt,3,2,Car
+train,IMG_16227.jpg,IMG_16227.txt,1,3,Person
+train,IMG_15110.jpg,IMG_15110.txt,1,1,Building
+train,IMG_00717.jpg,IMG_00717.txt,2,2,Car
+train,IMG_06063.jpg,IMG_06063.txt,1,2,Car
+train,IMG_17281.jpg,IMG_17281.txt,1,3,Person
+train,IMG_15062.jpg,IMG_15062.txt,1,1,Building
+train,IMG_04170.jpg,IMG_04170.txt,1,12,Tree
+train,IMG_17265.jpg,IMG_17265.txt,1,3,Person
+train,IMG_17153.jpg,IMG_17153.txt,1,3,Person
+train,IMG_06296.jpg,IMG_06296.txt,2,3,Person
+train,IMG_14194.jpg,IMG_14194.txt,1,3,Person
+train,IMG_06373.jpg,IMG_06373.txt,1,2,Car
+train,IMG_12232.jpg,IMG_12232.txt,1,2,Car
+train,IMG_06576.jpg,IMG_06576.txt,1,2,Car
+train,IMG_12665.jpg,IMG_12665.txt,3,3,Person
+train,IMG_07448.jpg,IMG_07448.txt,6,3,Person
+train,IMG_10964.jpg,IMG_10964.txt,2,3,Person
+train,IMG_17274.jpg,IMG_17274.txt,1,3,Person
+train,IMG_04759.jpg,IMG_04759.txt,3,12,Tree
+train,IMG_14944.jpg,IMG_14944.txt,1,1,Building
+train,IMG_00412.jpg,IMG_00412.txt,4,3,Person
+train,IMG_05742.jpg,IMG_05742.txt,3,2,Car
+train,IMG_06019.jpg,IMG_06019.txt,2,2,Car
+train,IMG_17648.jpg,IMG_17648.txt,1,1,Building
+train,IMG_13036.jpg,IMG_13036.txt,3,3,Person
+train,IMG_03341.jpg,IMG_03341.txt,1,12,Tree
+train,IMG_00283.jpg,IMG_00283.txt,1,2,Car
+train,IMG_00875.jpg,IMG_00875.txt,1,2,Car
+train,IMG_12422.jpg,IMG_12422.txt,2,3,Person
+train,IMG_04555.jpg,IMG_04555.txt,1,14,Pedestrian crosswalk
+train,IMG_00868.jpg,IMG_00868.txt,2,2,Car
+train,IMG_04936.jpg,IMG_04936.txt,1,3,Person
+train,IMG_18306.jpg,IMG_18306.txt,1,3,Person
+train,IMG_06598.jpg,IMG_06598.txt,3,2,Car
+train,IMG_05236.jpg,IMG_05236.txt,1,12,Tree
+train,IMG_14568.jpg,IMG_14568.txt,2,3,Person
+train,IMG_17212.jpg,IMG_17212.txt,1,3,Person
+train,IMG_12375.jpg,IMG_12375.txt,1,3,Person
+train,IMG_06083.jpg,IMG_06083.txt,3,2,Car
+train,IMG_17553.jpg,IMG_17553.txt,1,3,Person
+train,IMG_18650.jpg,IMG_18650.txt,1,3,Person
+train,IMG_01773.jpg,IMG_01773.txt,1,23,Chair
+train,IMG_14274.jpg,IMG_14274.txt,2,3,Person
+train,IMG_05288.jpg,IMG_05288.txt,1,23,Chair
+train,IMG_01349.jpg,IMG_01349.txt,1,2,Car
+train,IMG_06971.jpg,IMG_06971.txt,1,23,Chair
+train,IMG_06956.jpg,IMG_06956.txt,1,23,Chair
+train,IMG_01097.jpg,IMG_01097.txt,1,2,Car
+train,IMG_00408.jpg,IMG_00408.txt,5,3,Person
+train,IMG_17399.jpg,IMG_17399.txt,2,3,Person
+train,IMG_05789.jpg,IMG_05789.txt,1,2,Car
+train,IMG_03375.jpg,IMG_03375.txt,1,3,Person
+train,IMG_00901.jpg,IMG_00901.txt,1,8,Motorcycle
+train,IMG_15933.jpg,IMG_15933.txt,2,3,Person
+train,IMG_08088.jpg,IMG_08088.txt,2,23,Chair
+train,IMG_05816.jpg,IMG_05816.txt,1,2,Car
+train,IMG_06363.jpg,IMG_06363.txt,2,2,Car
+train,IMG_14914.jpg,IMG_14914.txt,1,1,Building
+train,IMG_01331.jpg,IMG_01331.txt,1,2,Car
+train,IMG_11540.jpg,IMG_11540.txt,1,11,Manhole
+train,IMG_11222.jpg,IMG_11222.txt,2,3,Person
+train,IMG_00833.jpg,IMG_00833.txt,1,2,Car
+train,IMG_14217.jpg,IMG_14217.txt,1,12,Tree
+train,IMG_01110.jpg,IMG_01110.txt,1,8,Motorcycle
+train,IMG_00618.jpg,IMG_00618.txt,1,8,Motorcycle
+train,IMG_06743.jpg,IMG_06743.txt,1,2,Car
+train,IMG_02112.jpg,IMG_02112.txt,1,14,Pedestrian crosswalk
+train,IMG_11492.jpg,IMG_11492.txt,1,11,Manhole
+train,IMG_02003.jpg,IMG_02003.txt,1,14,Pedestrian crosswalk
+train,IMG_02140.jpg,IMG_02140.txt,1,14,Pedestrian crosswalk
+train,IMG_06346.jpg,IMG_06346.txt,1,2,Car
+train,IMG_06786.jpg,IMG_06786.txt,4,2,Car
+train,IMG_00281.jpg,IMG_00281.txt,3,2,Car
+train,IMG_10945.jpg,IMG_10945.txt,1,11,Manhole
+train,IMG_01625.jpg,IMG_01625.txt,1,14,Pedestrian crosswalk
+train,IMG_06855.jpg,IMG_06855.txt,6,2,Car
+train,IMG_15916.jpg,IMG_15916.txt,1,3,Person
+train,IMG_08059.jpg,IMG_08059.txt,1,11,Manhole
+train,IMG_03811.jpg,IMG_03811.txt,1,12,Tree
+train,IMG_06011.jpg,IMG_06011.txt,0,,
+train,IMG_01501.jpg,IMG_01501.txt,1,12,Tree
+train,IMG_15026.jpg,IMG_15026.txt,1,1,Building
+train,IMG_12113.jpg,IMG_12113.txt,1,11,Manhole
+train,IMG_15245.jpg,IMG_15245.txt,2,23,Chair
+train,IMG_05272.jpg,IMG_05272.txt,1,11,Manhole
+train,IMG_04841.jpg,IMG_04841.txt,1,11,Manhole
+train,IMG_05276.jpg,IMG_05276.txt,1,11,Manhole
+train,IMG_00806.jpg,IMG_00806.txt,4,2,Car
+train,IMG_07364.jpg,IMG_07364.txt,1,11,Manhole
+train,IMG_15869.jpg,IMG_15869.txt,4,2,Car
+train,IMG_04160.jpg,IMG_04160.txt,2,11,Manhole
+train,IMG_18394.jpg,IMG_18394.txt,1,4,Stairs
+train,IMG_02408.jpg,IMG_02408.txt,2,23,Chair
+train,IMG_18809.jpg,IMG_18809.txt,2,14,Pedestrian crosswalk
+train,IMG_03860.jpg,IMG_03860.txt,1,12,Tree
+train,IMG_05715.jpg,IMG_05715.txt,1,2,Car
+train,IMG_17543.jpg,IMG_17543.txt,2,3,Person
+train,IMG_01291.jpg,IMG_01291.txt,1,2,Car
+train,IMG_01102.jpg,IMG_01102.txt,1,2,Car
+train,IMG_07125.jpg,IMG_07125.txt,44,3,Person
+train,IMG_15821.jpg,IMG_15821.txt,1,2,Car
+train,IMG_19100.jpg,IMG_19100.txt,1,3,Person
+train,IMG_05034.jpg,IMG_05034.txt,1,11,Manhole
+train,IMG_01472.jpg,IMG_01472.txt,2,12,Tree
+train,IMG_04355.jpg,IMG_04355.txt,2,3,Person
+train,IMG_17613.jpg,IMG_17613.txt,1,1,Building
+train,IMG_00703.jpg,IMG_00703.txt,2,2,Car
+train,IMG_15299.jpg,IMG_15299.txt,1,3,Person
+train,IMG_13090.jpg,IMG_13090.txt,1,23,Chair
+train,IMG_13639.jpg,IMG_13639.txt,1,23,Chair
+train,IMG_04753.jpg,IMG_04753.txt,1,11,Manhole
+train,IMG_04458.jpg,IMG_04458.txt,1,3,Person
+train,IMG_01712.jpg,IMG_01712.txt,1,23,Chair
+train,IMG_10297.jpg,IMG_10297.txt,1,13,Guard rail
+train,IMG_01380.jpg,IMG_01380.txt,1,11,Manhole
+train,IMG_11560.jpg,IMG_11560.txt,1,11,Manhole
+train,IMG_18787.jpg,IMG_18787.txt,1,2,Car
+train,IMG_10554.jpg,IMG_10554.txt,1,13,Guard rail
+train,IMG_10513.jpg,IMG_10513.txt,2,13,Guard rail
+train,IMG_16115.jpg,IMG_16115.txt,1,3,Person
+train,IMG_13084.jpg,IMG_13084.txt,1,23,Chair
+train,IMG_01789.jpg,IMG_01789.txt,1,14,Pedestrian crosswalk
+train,IMG_15726.jpg,IMG_15726.txt,6,2,Car
+train,IMG_09323.jpg,IMG_09323.txt,1,4,Stairs
+train,IMG_03012.jpg,IMG_03012.txt,1,7,Road
+train,IMG_05804.jpg,IMG_05804.txt,5,2,Car
+train,IMG_17680.jpg,IMG_17680.txt,1,1,Building
+train,IMG_00564.jpg,IMG_00564.txt,1,8,Motorcycle
+train,IMG_14830.jpg,IMG_14830.txt,1,1,Building
+train,IMG_04528.jpg,IMG_04528.txt,1,12,Tree
+train,IMG_00451.jpg,IMG_00451.txt,1,2,Car
+train,IMG_01829.jpg,IMG_01829.txt,1,14,Pedestrian crosswalk
+train,IMG_00497.jpg,IMG_00497.txt,2,"12,13","Tree,Guard rail"
+train,IMG_16137.jpg,IMG_16137.txt,1,18,Traffic Cone
+train,IMG_17184.jpg,IMG_17184.txt,1,3,Person
+train,IMG_03662.jpg,IMG_03662.txt,2,3,Person
+train,IMG_14180.jpg,IMG_14180.txt,3,9,Dustbin
+train,IMG_17763.jpg,IMG_17763.txt,1,1,Building
+train,IMG_00573.jpg,IMG_00573.txt,1,8,Motorcycle
+train,IMG_14589.jpg,IMG_14589.txt,3,3,Person
+train,IMG_02032.jpg,IMG_02032.txt,1,14,Pedestrian crosswalk
+train,IMG_15950.jpg,IMG_15950.txt,1,18,Traffic Cone
+train,IMG_07153.jpg,IMG_07153.txt,22,3,Person
+train,IMG_04772.jpg,IMG_04772.txt,1,3,Person
+train,IMG_00385.jpg,IMG_00385.txt,10,3,Person
+train,IMG_10316.jpg,IMG_10316.txt,1,13,Guard rail
+train,IMG_15781.jpg,IMG_15781.txt,3,2,Car
+train,IMG_05506.jpg,IMG_05506.txt,2,2,Car
+train,IMG_14003.jpg,IMG_14003.txt,1,9,Dustbin
+train,IMG_15082.jpg,IMG_15082.txt,1,1,Building
+train,IMG_16119.jpg,IMG_16119.txt,1,18,Traffic Cone
+train,IMG_10329.jpg,IMG_10329.txt,1,13,Guard rail
+train,IMG_18565.jpg,IMG_18565.txt,1,4,Stairs
+train,IMG_03980.jpg,IMG_03980.txt,1,11,Manhole
+train,IMG_05113.jpg,IMG_05113.txt,4,13,Guard rail
+train,IMG_15892.jpg,IMG_15892.txt,1,18,Traffic Cone
+train,IMG_04767.jpg,IMG_04767.txt,1,14,Pedestrian crosswalk
+train,IMG_03313.jpg,IMG_03313.txt,1,12,Tree
+train,IMG_00297.jpg,IMG_00297.txt,1,2,Car
+train,IMG_14207.jpg,IMG_14207.txt,1,12,Tree
+train,IMG_09887.jpg,IMG_09887.txt,1,4,Stairs
+train,IMG_04104.jpg,IMG_04104.txt,1,14,Pedestrian crosswalk
+train,IMG_07807.jpg,IMG_07807.txt,1,9,Dustbin
+train,IMG_15510.jpg,IMG_15510.txt,1,13,Guard rail
+train,IMG_10504.jpg,IMG_10504.txt,2,13,Guard rail
+train,IMG_01555.jpg,IMG_01555.txt,1,11,Manhole
+train,IMG_18759.jpg,IMG_18759.txt,2,9,Dustbin
+train,IMG_13718.jpg,IMG_13718.txt,1,9,Dustbin
+train,IMG_13299.jpg,IMG_13299.txt,1,23,Chair
+train,IMG_07591.jpg,IMG_07591.txt,4,4,Stairs
+train,IMG_03467.jpg,IMG_03467.txt,5,14,Pedestrian crosswalk
+train,IMG_14850.jpg,IMG_14850.txt,1,1,Building
+train,IMG_05003.jpg,IMG_05003.txt,1,3,Person
+train,IMG_13447.jpg,IMG_13447.txt,1,3,Person
+train,IMG_12246.jpg,IMG_12246.txt,1,2,Car
+train,IMG_00249.jpg,IMG_00249.txt,1,13,Guard rail
+train,IMG_19159.jpg,IMG_19159.txt,1,14,Pedestrian crosswalk
+train,IMG_04794.jpg,IMG_04794.txt,1,12,Tree
+train,IMG_00380.jpg,IMG_00380.txt,0,,
+train,IMG_18701.jpg,IMG_18701.txt,1,9,Dustbin
+train,IMG_09997.jpg,IMG_09997.txt,1,4,Stairs
+train,IMG_18981.jpg,IMG_18981.txt,1,2,Car
+train,IMG_17349.jpg,IMG_17349.txt,3,3,Person
+train,IMG_00570.jpg,IMG_00570.txt,1,8,Motorcycle
+train,IMG_18259.jpg,IMG_18259.txt,1,3,Person
+train,IMG_11535.jpg,IMG_11535.txt,1,11,Manhole
+train,IMG_12903.jpg,IMG_12903.txt,1,16,Bus
+train,IMG_00495.jpg,IMG_00495.txt,2,"12,13","Tree,Guard rail"
+train,IMG_12792.jpg,IMG_12792.txt,1,16,Bus
+train,IMG_17792.jpg,IMG_17792.txt,1,1,Building
+train,IMG_02252.jpg,IMG_02252.txt,1,13,Guard rail
+train,IMG_01372.jpg,IMG_01372.txt,1,11,Manhole
+train,IMG_14057.jpg,IMG_14057.txt,4,9,Dustbin
+train,IMG_13187.jpg,IMG_13187.txt,1,23,Chair
+train,IMG_13274.jpg,IMG_13274.txt,1,23,Chair
+train,IMG_04386.jpg,IMG_04386.txt,1,12,Tree
+train,IMG_06903.jpg,IMG_06903.txt,1,23,Chair
+train,IMG_14299.jpg,IMG_14299.txt,1,3,Person
+train,IMG_14919.jpg,IMG_14919.txt,1,1,Building
+train,IMG_07456.jpg,IMG_07456.txt,1,4,Stairs
+train,IMG_00553.jpg,IMG_00553.txt,1,8,Motorcycle
+train,IMG_01584.jpg,IMG_01584.txt,2,14,Pedestrian crosswalk
+train,IMG_04887.jpg,IMG_04887.txt,1,14,Pedestrian crosswalk
+train,IMG_17495.jpg,IMG_17495.txt,7,3,Person
+train,IMG_19102.jpg,IMG_19102.txt,1,3,Person
+train,IMG_12758.jpg,IMG_12758.txt,1,16,Bus
+train,IMG_18307.jpg,IMG_18307.txt,1,3,Person
+train,IMG_06342.jpg,IMG_06342.txt,1,2,Car
+train,IMG_18518.jpg,IMG_18518.txt,1,4,Stairs
+train,IMG_13040.jpg,IMG_13040.txt,2,3,Person
+train,IMG_11825.jpg,IMG_11825.txt,1,15,Truck
+train,IMG_16803.jpg,IMG_16803.txt,5,"1,3,7,8,12","Building,Person,Road,Motorcycle,Tree"
+train,IMG_18760.jpg,IMG_18760.txt,1,9,Dustbin
+train,IMG_12318.jpg,IMG_12318.txt,1,11,Manhole
+train,IMG_17802.jpg,IMG_17802.txt,1,1,Building
+valid,IMG_22615.jpg,IMG_22615.txt,2,20,Teraffic Barrel
+valid,IMG_22489.jpg,IMG_22489.txt,1,20,Teraffic Barrel
+valid,IMG_22487.jpg,IMG_22487.txt,1,20,Teraffic Barrel
+valid,IMG_22488.jpg,IMG_22488.txt,1,20,Teraffic Barrel
+valid,IMG_22536.jpg,IMG_22536.txt,1,19,Fire hydrant
+valid,IMG_22541.jpg,IMG_22541.txt,1,19,Fire hydrant
+valid,IMG_22538.jpg,IMG_22538.txt,1,19,Fire hydrant
+valid,IMG_22533.jpg,IMG_22533.txt,1,19,Fire hydrant
+valid,IMG_22600.jpg,IMG_22600.txt,1,21,Plant Pot
+valid,IMG_22560.jpg,IMG_22560.txt,1,21,Plant Pot
+valid,IMG_22570.jpg,IMG_22570.txt,1,21,Plant Pot
+valid,IMG_22512.jpg,IMG_22512.txt,1,21,Plant Pot
+valid,IMG_22582.jpg,IMG_22582.txt,1,22,Electrical Box
+valid,IMG_22589.jpg,IMG_22589.txt,1,22,Electrical Box
+valid,IMG_22591.jpg,IMG_22591.txt,1,22,Electrical Box
+valid,IMG_22609.jpg,IMG_22609.txt,1,22,Electrical Box
+valid,IMG_22495.jpg,IMG_22495.txt,1,24,Bicycle Rack
+valid,IMG_22673.jpg,IMG_22673.txt,1,24,Bicycle Rack
+valid,IMG_22672.jpg,IMG_22672.txt,1,24,Bicycle Rack
+valid,IMG_22506.jpg,IMG_22506.txt,1,24,Bicycle Rack
+valid,IMG_21325.jpg,IMG_21325.txt,1,17,Bench
+valid,IMG_22425.jpg,IMG_22425.txt,1,17,Bench
+valid,IMG_21310.jpg,IMG_21310.txt,1,17,Bench
+valid,IMG_21323.jpg,IMG_21323.txt,1,17,Bench
+valid,IMG_23778.jpg,IMG_23778.txt,3,"7,8","Road,Motorcycle"
+valid,IMG_23775.jpg,IMG_23775.txt,3,"1,8,12","Building,Motorcycle,Tree"
+valid,IMG_23777.jpg,IMG_23777.txt,8,"1,2,3,6,8,12","Building,Car,Person,Electrical Pole,Motorcycle,Tree"
+valid,IMG_20917.jpg,IMG_20917.txt,1,8,Motorcycle
+valid,IMG_23825.jpg,IMG_23825.txt,1,10,Dog
+valid,IMG_23104.jpg,IMG_23104.txt,1,10,Dog
+valid,IMG_23072.jpg,IMG_23072.txt,1,10,Dog
+valid,IMG_23081.jpg,IMG_23081.txt,1,10,Dog
+valid,IMG_22683.jpg,IMG_22683.txt,1,6,Electrical Pole
+valid,IMG_23450.jpg,IMG_23450.txt,1,6,Electrical Pole
+valid,IMG_22681.jpg,IMG_22681.txt,1,6,Electrical Pole
+valid,IMG_21243.jpg,IMG_21243.txt,1,7,Road
+valid,IMG_21281.jpg,IMG_21281.txt,1,7,Road
+valid,IMG_21304.jpg,IMG_21304.txt,1,7,Road
+valid,IMG_22904.jpg,IMG_22904.txt,1,5,Traffic sign
+valid,IMG_22891.jpg,IMG_22891.txt,1,5,Traffic sign
+valid,IMG_22905.jpg,IMG_22905.txt,1,5,Traffic sign
+valid,IMG_23830.jpg,IMG_23830.txt,12,5,Traffic sign
+valid,IMG_23346.jpg,IMG_23346.txt,1,0,Bike
+valid,IMG_23348.jpg,IMG_23348.txt,1,0,Bike
+valid,IMG_22023.jpg,IMG_22023.txt,1,0,Bike
+valid,IMG_24010.jpg,IMG_24010.txt,1,0,Bike
+valid,IMG_23477.jpg,IMG_23477.txt,1,1,Building
+valid,IMG_23518.jpg,IMG_23518.txt,1,1,Building
+valid,IMG_23330.jpg,IMG_23330.txt,1,9,Dustbin
+valid,IMG_23294.jpg,IMG_23294.txt,1,9,Dustbin
+valid,IMG_23342.jpg,IMG_23342.txt,1,9,Dustbin
+valid,IMG_23287.jpg,IMG_23287.txt,3,9,Dustbin
+valid,IMG_23143.jpg,IMG_23143.txt,2,16,Bus
+valid,IMG_22848.jpg,IMG_22848.txt,1,16,Bus
+valid,IMG_23128.jpg,IMG_23128.txt,3,"2,16","Car,Bus"
+valid,IMG_23120.jpg,IMG_23120.txt,1,16,Bus
+valid,IMG_22643.jpg,IMG_22643.txt,1,13,Guard rail
+valid,IMG_22651.jpg,IMG_22651.txt,2,13,Guard rail
+valid,IMG_22546.jpg,IMG_22546.txt,1,13,Guard rail
+valid,IMG_23082.jpg,IMG_23082.txt,1,13,Guard rail
+valid,IMG_22613.jpg,IMG_22613.txt,1,18,Traffic Cone
+valid,IMG_23757.jpg,IMG_23757.txt,1,18,Traffic Cone
+valid,IMG_23687.jpg,IMG_23687.txt,1,18,Traffic Cone
+valid,IMG_22476.jpg,IMG_22476.txt,1,18,Traffic Cone
+valid,IMG_22745.jpg,IMG_22745.txt,1,15,Truck
+valid,IMG_23990.jpg,IMG_23990.txt,1,15,Truck
+valid,IMG_23404.jpg,IMG_23404.txt,1,15,Truck
+valid,IMG_22932.jpg,IMG_22932.txt,1,15,Truck
+valid,IMG_21664.jpg,IMG_21664.txt,1,12,Tree
+valid,IMG_21756.jpg,IMG_21756.txt,1,12,Tree
+valid,IMG_24040.jpg,IMG_24040.txt,1,4,Stairs
+valid,IMG_24037.jpg,IMG_24037.txt,1,4,Stairs
+valid,IMG_24150.jpg,IMG_24150.txt,1,4,Stairs
+valid,IMG_24114.jpg,IMG_24114.txt,1,4,Stairs
+valid,IMG_22790.jpg,IMG_22790.txt,1,14,Pedestrian crosswalk
+valid,IMG_24249.jpg,IMG_24249.txt,2,14,Pedestrian crosswalk
+valid,IMG_21697.jpg,IMG_21697.txt,1,14,Pedestrian crosswalk
+valid,IMG_21484.jpg,IMG_21484.txt,1,14,Pedestrian crosswalk
+valid,IMG_22319.jpg,IMG_22319.txt,1,23,Chair
+valid,IMG_23053.jpg,IMG_23053.txt,1,23,Chair
+valid,IMG_22457.jpg,IMG_22457.txt,1,23,Chair
+valid,IMG_21454.jpg,IMG_21454.txt,1,23,Chair
+valid,IMG_20887.jpg,IMG_20887.txt,5,3,Person
+valid,IMG_23916.jpg,IMG_23916.txt,2,3,Person
+valid,IMG_23260.jpg,IMG_23260.txt,4,3,Person
+valid,IMG_22717.jpg,IMG_22717.txt,1,11,Manhole
+valid,IMG_21518.jpg,IMG_21518.txt,1,11,Manhole
+valid,IMG_21545.jpg,IMG_21545.txt,1,11,Manhole
+valid,IMG_21379.jpg,IMG_21379.txt,1,11,Manhole
+valid,IMG_21938.jpg,IMG_21938.txt,3,2,Car
+valid,IMG_20826.jpg,IMG_20826.txt,1,2,Car
+valid,IMG_23629.jpg,IMG_23629.txt,3,2,Car
+valid,IMG_22060.jpg,IMG_22060.txt,1,2,Car
+valid,IMG_21883.jpg,IMG_21883.txt,1,2,Car
+valid,IMG_23633.jpg,IMG_23633.txt,4,2,Car
+valid,IMG_20852.jpg,IMG_20852.txt,1,2,Car
+valid,IMG_22089.jpg,IMG_22089.txt,1,2,Car
+valid,IMG_23040.jpg,IMG_23040.txt,1,11,Manhole
+valid,IMG_21476.jpg,IMG_21476.txt,1,11,Manhole
+valid,IMG_22244.jpg,IMG_22244.txt,1,23,Chair
+valid,IMG_22253.jpg,IMG_22253.txt,1,23,Chair
+valid,IMG_21742.jpg,IMG_21742.txt,1,3,Person
+valid,IMG_22284.jpg,IMG_22284.txt,1,23,Chair
+valid,IMG_23998.jpg,IMG_23998.txt,1,11,Manhole
+valid,IMG_23636.jpg,IMG_23636.txt,1,2,Car
+valid,IMG_22773.jpg,IMG_22773.txt,7,11,Manhole
+valid,IMG_23267.jpg,IMG_23267.txt,1,23,Chair
+valid,IMG_21660.jpg,IMG_21660.txt,1,11,Manhole
+valid,IMG_23060.jpg,IMG_23060.txt,10,3,Person
+valid,IMG_21105.jpg,IMG_21105.txt,1,11,Manhole
+valid,IMG_22234.jpg,IMG_22234.txt,1,23,Chair
+valid,IMG_21872.jpg,IMG_21872.txt,1,2,Car
+valid,IMG_21585.jpg,IMG_21585.txt,2,3,Person
+valid,IMG_21674.jpg,IMG_21674.txt,1,11,Manhole
+valid,IMG_22193.jpg,IMG_22193.txt,1,2,Car
+valid,IMG_22437.jpg,IMG_22437.txt,2,23,Chair
+valid,IMG_23036.jpg,IMG_23036.txt,1,23,Chair
+valid,IMG_22103.jpg,IMG_22103.txt,4,2,Car
+valid,IMG_21774.jpg,IMG_21774.txt,1,12,Tree
+valid,IMG_21239.jpg,IMG_21239.txt,1,14,Pedestrian crosswalk
+valid,IMG_22256.jpg,IMG_22256.txt,1,23,Chair
+valid,IMG_21677.jpg,IMG_21677.txt,1,11,Manhole
+valid,IMG_21811.jpg,IMG_21811.txt,1,2,Car
+valid,IMG_21441.jpg,IMG_21441.txt,1,14,Pedestrian crosswalk
+valid,IMG_23551.jpg,IMG_23551.txt,4,23,Chair
+test,IMG_19940.jpg,IMG_19940.txt,1,20,Teraffic Barrel
+test,IMG_19934.jpg,IMG_19934.txt,2,20,Teraffic Barrel
+test,IMG_19931.jpg,IMG_19931.txt,1,20,Teraffic Barrel
+test,IMG_19936.jpg,IMG_19936.txt,2,20,Teraffic Barrel
+test,IMG_19935.jpg,IMG_19935.txt,2,20,Teraffic Barrel
+test,IMG_20597.jpg,IMG_20597.txt,11,"2,6,7,8,12","Car,Electrical Pole,Road,Motorcycle,Tree"
+test,IMG_20595.jpg,IMG_20595.txt,8,"3,6,8,12","Person,Electrical Pole,Motorcycle,Tree"
+test,IMG_19225.jpg,IMG_19225.txt,1,8,Motorcycle
+test,IMG_20589.jpg,IMG_20589.txt,6,"1,2,7,8,12","Building,Car,Road,Motorcycle,Tree"
+test,IMG_19226.jpg,IMG_19226.txt,1,8,Motorcycle
+test,IMG_19952.jpg,IMG_19952.txt,1,21,Plant Pot
+test,IMG_19995.jpg,IMG_19995.txt,1,21,Plant Pot
+test,IMG_20000.jpg,IMG_20000.txt,1,21,Plant Pot
+test,IMG_20001.jpg,IMG_20001.txt,2,21,Plant Pot
+test,IMG_19994.jpg,IMG_19994.txt,1,21,Plant Pot
+test,IMG_19983.jpg,IMG_19983.txt,1,19,Fire hydrant
+test,IMG_20627.jpg,IMG_20627.txt,1,19,Fire hydrant
+test,IMG_19968.jpg,IMG_19968.txt,1,19,Fire hydrant
+test,IMG_19980.jpg,IMG_19980.txt,1,19,Fire hydrant
+test,IMG_19966.jpg,IMG_19966.txt,1,19,Fire hydrant
+test,IMG_19919.jpg,IMG_19919.txt,1,24,Bicycle Rack
+test,IMG_19918.jpg,IMG_19918.txt,1,24,Bicycle Rack
+test,IMG_20080.jpg,IMG_20080.txt,1,24,Bicycle Rack
+test,IMG_20028.jpg,IMG_20028.txt,2,24,Bicycle Rack
+test,IMG_20085.jpg,IMG_20085.txt,1,24,Bicycle Rack
+test,IMG_20063.jpg,IMG_20063.txt,1,9,Dustbin
+test,IMG_19879.jpg,IMG_19879.txt,1,9,Dustbin
+test,IMG_20061.jpg,IMG_20061.txt,1,9,Dustbin
+test,IMG_20055.jpg,IMG_20055.txt,1,9,Dustbin
+test,IMG_20054.jpg,IMG_20054.txt,1,9,Dustbin
+test,IMG_20042.jpg,IMG_20042.txt,1,22,Electrical Box
+test,IMG_20030.jpg,IMG_20030.txt,1,22,Electrical Box
+test,IMG_20021.jpg,IMG_20021.txt,1,22,Electrical Box
+test,IMG_20020.jpg,IMG_20020.txt,2,22,Electrical Box
+test,IMG_20044.jpg,IMG_20044.txt,1,22,Electrical Box
+test,IMG_19976.jpg,IMG_19976.txt,1,17,Bench
+test,IMG_19881.jpg,IMG_19881.txt,1,17,Bench
+test,IMG_19859.jpg,IMG_19859.txt,1,17,Bench
+test,IMG_19414.jpg,IMG_19414.txt,1,17,Bench
+test,IMG_19882.jpg,IMG_19882.txt,1,17,Bench
+test,IMG_20656.jpg,IMG_20656.txt,1,10,Dog
+test,IMG_20654.jpg,IMG_20654.txt,1,10,Dog
+test,IMG_20307.jpg,IMG_20307.txt,2,"3,10","Person,Dog"
+test,IMG_20380.jpg,IMG_20380.txt,1,10,Dog
+test,IMG_20573.jpg,IMG_20573.txt,1,10,Dog
+test,IMG_20603.jpg,IMG_20603.txt,5,"1,5,7,12","Building,Traffic sign,Road,Tree"
+test,IMG_19396.jpg,IMG_19396.txt,1,7,Road
+test,IMG_20583.jpg,IMG_20583.txt,3,"7,12","Road,Tree"
+test,IMG_20188.jpg,IMG_20188.txt,1,16,Bus
+test,IMG_20322.jpg,IMG_20322.txt,2,16,Bus
+test,IMG_20195.jpg,IMG_20195.txt,1,16,Bus
+test,IMG_20325.jpg,IMG_20325.txt,1,16,Bus
+test,IMG_20249.jpg,IMG_20249.txt,1,16,Bus
+test,IMG_20635.jpg,IMG_20635.txt,1,15,Truck
+test,IMG_19645.jpg,IMG_19645.txt,1,15,Truck
+test,IMG_20637.jpg,IMG_20637.txt,1,15,Truck
+test,IMG_20643.jpg,IMG_20643.txt,1,15,Truck
+test,IMG_20253.jpg,IMG_20253.txt,1,15,Truck
+test,IMG_20093.jpg,IMG_20093.txt,1,6,Electrical Pole
+test,IMG_20423.jpg,IMG_20423.txt,1,6,Electrical Pole
+test,IMG_20432.jpg,IMG_20432.txt,1,6,Electrical Pole
+test,IMG_19726.jpg,IMG_19726.txt,1,0,Bike
+test,IMG_19239.jpg,IMG_19239.txt,1,0,Bike
+test,IMG_19719.jpg,IMG_19719.txt,1,0,Bike
+test,IMG_20630.jpg,IMG_20630.txt,1,0,Bike
+test,IMG_19725.jpg,IMG_19725.txt,1,0,Bike
+test,IMG_20450.jpg,IMG_20450.txt,1,1,Building
+test,IMG_20619.jpg,IMG_20619.txt,1,1,Building
+test,IMG_20451.jpg,IMG_20451.txt,1,1,Building
+test,IMG_20509.jpg,IMG_20509.txt,1,13,Guard rail
+test,IMG_20069.jpg,IMG_20069.txt,1,13,Guard rail
+test,IMG_20401.jpg,IMG_20401.txt,1,13,Guard rail
+test,IMG_20076.jpg,IMG_20076.txt,1,13,Guard rail
+test,IMG_19329.jpg,IMG_19329.txt,1,13,Guard rail
+test,IMG_19916.jpg,IMG_19916.txt,1,18,Traffic Cone
+test,IMG_20561.jpg,IMG_20561.txt,1,18,Traffic Cone
+test,IMG_19917.jpg,IMG_19917.txt,1,18,Traffic Cone
+test,IMG_20548.jpg,IMG_20548.txt,4,18,Traffic Cone
+test,IMG_20563.jpg,IMG_20563.txt,1,18,Traffic Cone
+test,IMG_20224.jpg,IMG_20224.txt,1,5,Traffic sign
+test,IMG_19807.jpg,IMG_19807.txt,1,5,Traffic sign
+test,IMG_19808.jpg,IMG_19808.txt,1,5,Traffic sign
+test,IMG_19838.jpg,IMG_19838.txt,1,5,Traffic sign
+test,IMG_20280.jpg,IMG_20280.txt,2,3,Person
+test,IMG_19841.jpg,IMG_19841.txt,16,3,Person
+test,IMG_19245.jpg,IMG_19245.txt,1,3,Person
+test,IMG_20351.jpg,IMG_20351.txt,1,23,Chair
+test,IMG_19895.jpg,IMG_19895.txt,1,23,Chair
+test,IMG_20487.jpg,IMG_20487.txt,2,23,Chair
+test,IMG_19785.jpg,IMG_19785.txt,1,23,Chair
+test,IMG_20358.jpg,IMG_20358.txt,1,23,Chair
+test,IMG_19432.jpg,IMG_19432.txt,1,14,Pedestrian crosswalk
+test,IMG_20794.jpg,IMG_20794.txt,1,14,Pedestrian crosswalk
+test,IMG_19354.jpg,IMG_19354.txt,1,14,Pedestrian crosswalk
+test,IMG_19286.jpg,IMG_19286.txt,1,14,Pedestrian crosswalk
+test,IMG_20165.jpg,IMG_20165.txt,1,14,Pedestrian crosswalk
+test,IMG_19695.jpg,IMG_19695.txt,5,2,Car
+test,IMG_19698.jpg,IMG_19698.txt,3,2,Car
+test,IMG_19749.jpg,IMG_19749.txt,1,2,Car
+test,IMG_20661.jpg,IMG_20661.txt,1,4,Stairs
+test,IMG_19988.jpg,IMG_19988.txt,5,4,Stairs
+test,IMG_20739.jpg,IMG_20739.txt,1,4,Stairs
+test,IMG_19847.jpg,IMG_19847.txt,1,4,Stairs
+test,IMG_20735.jpg,IMG_20735.txt,1,4,Stairs
+test,IMG_19605.jpg,IMG_19605.txt,1,11,Manhole
+test,IMG_20279.jpg,IMG_20279.txt,1,11,Manhole
+test,IMG_20276.jpg,IMG_20276.txt,1,11,Manhole
+test,IMG_19558.jpg,IMG_19558.txt,1,11,Manhole
+test,IMG_19517.jpg,IMG_19517.txt,4,11,Manhole
+test,IMG_19596.jpg,IMG_19596.txt,1,12,Tree
+test,IMG_20457.jpg,IMG_20457.txt,0,,
+test,IMG_20496.jpg,IMG_20496.txt,1,11,Manhole
+test,IMG_19416.jpg,IMG_19416.txt,1,12,Tree
+test,IMG_19222.jpg,IMG_19222.txt,1,11,Manhole
+test,IMG_19622.jpg,IMG_19622.txt,1,11,Manhole
+test,IMG_20161.jpg,IMG_20161.txt,1,11,Manhole
+test,IMG_19425.jpg,IMG_19425.txt,1,12,Tree
+test,IMG_19582.jpg,IMG_19582.txt,1,12,Tree
+test,IMG_19754.jpg,IMG_19754.txt,1,2,Car
+test,IMG_20264.jpg,IMG_20264.txt,1,11,Manhole
+test,IMG_19633.jpg,IMG_19633.txt,1,23,Chair
+test,IMG_19366.jpg,IMG_19366.txt,1,11,Manhole
+test,IMG_20378.jpg,IMG_20378.txt,1,11,Manhole
+test,IMG_20211.jpg,IMG_20211.txt,1,11,Manhole
+test,IMG_20792.jpg,IMG_20792.txt,1,14,Pedestrian crosswalk
+test,IMG_20379.jpg,IMG_20379.txt,1,3,Person
+test,IMG_20774.jpg,IMG_20774.txt,3,2,Car
+test,IMG_19762.jpg,IMG_19762.txt,1,2,Car
+test,IMG_19521.jpg,IMG_19521.txt,1,12,Tree
+test,IMG_19454.jpg,IMG_19454.txt,1,14,Pedestrian crosswalk
+test,IMG_19474.jpg,IMG_19474.txt,1,12,Tree
+test,IMG_20124.jpg,IMG_20124.txt,1,11,Manhole
+test,IMG_19294.jpg,IMG_19294.txt,1,14,Pedestrian crosswalk
+test,IMG_19263.jpg,IMG_19263.txt,2,23,Chair
+test,IMG_20611.jpg,IMG_20611.txt,5,3,Person
+test,IMG_19453.jpg,IMG_19453.txt,1,12,Tree
+test,IMG_20489.jpg,IMG_20489.txt,1,11,Manhole
+test,IMG_19827.jpg,IMG_19827.txt,1,11,Manhole
+test,IMG_20780.jpg,IMG_20780.txt,2,"2,14","Car,Pedestrian crosswalk"
+test,IMG_20356.jpg,IMG_20356.txt,1,23,Chair
+test,IMG_19900.jpg,IMG_19900.txt,1,23,Chair
+test,IMG_19638.jpg,IMG_19638.txt,8,23,Chair
+test,IMG_19214.jpg,IMG_19214.txt,6,3,Person
+test,IMG_19455.jpg,IMG_19455.txt,1,14,Pedestrian crosswalk
+test,IMG_19811.jpg,IMG_19811.txt,23,3,Person
+test,IMG_19275.jpg,IMG_19275.txt,1,11,Manhole
+test,IMG_19744.jpg,IMG_19744.txt,2,2,Car
+test,IMG_19467.jpg,IMG_19467.txt,1,11,Manhole
+test,IMG_19987.jpg,IMG_19987.txt,1,4,Stairs
+test,IMG_20112.jpg,IMG_20112.txt,1,11,Manhole

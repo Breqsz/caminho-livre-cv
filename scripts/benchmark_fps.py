@@ -24,7 +24,14 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("--warmup", type=int, default=10)
     p.add_argument("--imgsz", type=int, default=640)
     p.add_argument("--out", type=Path, default=Path("docs/assets/fps.json"))
+    p.add_argument("--conf", type=float, default=0.15)
     args = p.parse_args(argv)
+    if args.n < 1 or args.warmup < 0:
+        p.error("--n deve ser positivo e --warmup deve ser não negativo")
+    if not 0 <= args.conf <= 1:
+        p.error("--conf deve estar entre 0 e 1")
+    if not args.images.is_dir():
+        p.error(f"pasta de imagens não encontrada: {args.images}")
 
     from ultralytics import YOLO
     import torch
@@ -35,10 +42,14 @@ def main(argv: list[str] | None = None) -> int:
     times = []
     for i, path in enumerate(paths):
         img = cv2.imread(str(path))
+        if img is None:
+            p.error(f"imagem ilegível: {path}")
         t0 = time.perf_counter()
-        model.predict(img, imgsz=args.imgsz, conf=0.15, verbose=False, device="cpu")
+        model.predict(img, imgsz=args.imgsz, conf=args.conf, verbose=False, device="cpu")
         if i >= args.warmup:
             times.append(time.perf_counter() - t0)
+    if not times:
+        p.error("o diretório precisa ter mais imagens do que o número de quadros de aquecimento")
     mean_ms = statistics.mean(times) * 1000
     result = {
         "weights": args.weights.name,
@@ -46,6 +57,8 @@ def main(argv: list[str] | None = None) -> int:
         "hardware": {"processor": platform.processor(), "cpu_count": os.cpu_count(), "system": platform.platform()},
         "torch": torch.__version__,
         "imgsz": args.imgsz,
+        "conf": args.conf,
+        "warmup": args.warmup,
         "n": len(times),
         "mean_ms": round(mean_ms, 1),
         "p95_ms": round(sorted(times)[int(0.95 * (len(times) - 1))] * 1000, 1),

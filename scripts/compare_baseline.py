@@ -31,10 +31,11 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("--weights", type=Path, default=Path("models/best.pt"))
     p.add_argument("--conf", type=float, default=DEFAULT_CONF)
     p.add_argument("--out", type=Path, default=Path("docs/assets/baseline"))
+    p.add_argument("--imgsz", type=int, default=640)
     args = p.parse_args(argv)
 
     cfg = load_barrier_config()
-    base, tuned = _make_predict(args.baseline, 640), _make_predict(args.weights, 640)
+    base, tuned = _make_predict(args.baseline, args.imgsz), _make_predict(args.weights, args.imgsz)
     args.out.mkdir(parents=True, exist_ok=True)
     rows = ["| Imagem | COCO (sem fine-tune) | Fine-tuned (ROD) |", "|---|---|---|"]
     for path in args.images:

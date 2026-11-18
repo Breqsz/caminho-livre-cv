@@ -1,0 +1,31 @@
+{
+  "report": [
+    {
+      "image": "IMG_20548.jpg",
+      "file": "baseline/IMG_20548_compare.jpg",
+      "title": "Cones em uma via sinalizada",
+      "caption": "IMG_20548.jpg • Cone. A imagem do teste é a mesma nos dois lados. O YOLO11n ajustado sinalizou cones com limiar de confiança de 0,25.",
+      "short": "Na amostra de teste, o modelo ajustado sinalizou cones.",
+      "detections_coco": "—",
+      "detections_rod": "Traffic Cone ×2, Person ×1"
+    },
+    {
+      "image": "IMG_20496.jpg",
+      "file": "baseline/IMG_20496_compare.jpg",
+      "title": "Tampa no piso",
+      "caption": "IMG_20496.jpg • Tampa no piso. A imagem do teste é a mesma nos dois lados. O YOLO11n ajustado sinalizou uma tampa com limiar de confiança de 0,25.",
+      "short": "Na amostra de teste, o modelo ajustado sinalizou uma tampa.",
+      "detections_coco": "clock ×1",
+      "detections_rod": "Manhole ×1"
+    }
+  ],
+  "video": {
+    "image": "IMG_20548.jpg",
+    "file": "baseline/IMG_20548_compare.jpg",
+    "title": "Cones em uma via sinalizada",
+    "caption": "IMG_20548.jpg • Cone. A imagem do teste é a mesma nos dois lados. O YOLO11n ajustado sinalizou cones com limiar de confiança de 0,25.",
+    "short": "Na amostra de teste, o modelo ajustado sinalizou cones.",
+    "detections_coco": "—",
+    "detections_rod": "Traffic Cone ×2, Person ×1"
+  }
+}
