@@ -5,10 +5,24 @@ Módulo de visão computacional do Caminho Livre, mapa colaborativo de barreiras
 **Global Solution FIAP 2026.2 · Engenharia de Software 4ES · Applied Computer Vision**
 Arnaldo Viana e Paulo Rodrigues
 
+## Ficha técnica do MVP
+
+| Campo | Caminho Livre |
+|---|---|
+| Cidadão e território | Pedestres com deficiência ou mobilidade reduzida, idosos e cuidadores no entorno da FIAP Paulista, São Paulo (SP). O piloto cobre cerca de 1,2 × 1,5 km. |
+| Problema | Relatos sobre barreiras em calçadas e travessias ficam dispersos, e o cidadão tem dificuldade para acompanhar sua resolução. |
+| Proposta de valor | O cidadão registra uma barreira no mapa e acompanha seu status. A equipe gestora recebe uma fila de relatos para revisar, priorizar e encerrar. |
+| Arquitetura e componentes | O mapa web usa Leaflet e OpenStreetMap. A API FastAPI usa SQLite persistente no Azure App Service. O painel por quadra recebe dados agregados do componente de Big Data. O detector desta disciplina roda localmente e gera anotações para revisão humana. O registro de uma barreira no mapa é manual. |
+| Fontes de dados | OpenStreetMap e relatos enviados pelo MVP, incluindo relatos sintéticos identificados como demonstração. O detector usa uma amostra do ROD-Dataset. |
+| Modelo de IA | YOLO11n ajustado para 25 classes de objetos urbanos. A identificação da barreira e de sua posição na passagem depende de revisão humana. |
+| Links | [MVP público](https://caminholivre-gs.azurewebsites.net/) · [Repositório principal](https://github.com/santos-nikolas/caminho-livre) · [Repositório de visão computacional](https://github.com/Breqsz/caminho-livre-cv) |
+| Indicadores planejados | Relatos recebidos e revisados, tempo até a primeira revisão, relatos resolvidos com confirmação e taxa de resolução. A melhoria física requer verificação em campo. |
+| ODS | ODS 10, redução das desigualdades. ODS 11, metas 11.2 e 11.7, acesso a transporte e espaços públicos acessíveis. |
+
 ## Entrega
 
 - [Relatório técnico em PDF](docs/Caminho_Livre_CV_Relatorio.pdf)
-- [Vídeo demonstrativo](docs/Caminho_Livre_CV_Demonstracao.mp4)
+- [Vídeo demonstrativo com narração em português brasileiro](docs/Caminho_Livre_CV_Demonstracao.mp4)
 - [Pesos treinados](models/best.pt) · [Relatório em Markdown](docs/relatorio.md)
 
 [![Prévia do vídeo demonstrativo do Caminho Livre CV](docs/assets/video_preview.jpg)](docs/Caminho_Livre_CV_Demonstracao.mp4)
@@ -87,3 +101,4 @@ O conjunto cobre 25 classes e a qualidade varia por classe. O projeto usa uma am
 - [ROD-Dataset](https://huggingface.co/datasets/Abtinzandi/Obstacle-Detection-Dataset-YOLO), revisão `103b38ccb6c80be269e5c7288e63b828d6f54e0b`. O agregado é MIT e os conjuntos do Roboflow mantêm suas licenças de origem. [Artigo de Zandi et al.](https://arxiv.org/abs/2611.00681)
 - Código e pesos do detector sob [AGPL-3.0](LICENSE), compatível com a licença do [Ultralytics YOLO11](https://docs.ultralytics.com/models/yolo11/).
 - O trecho de Eudes cs foi editado com o painel e tem atribuição na demonstração. [Licença Pexels](https://www.pexels.com/license/)
+- Narração sintética em português brasileiro com a voz Faber do Piper. [Ficha do modelo de voz](https://huggingface.co/rhasspy/piper-voices/blob/v1.0.0/pt/pt_BR/faber/medium/MODEL_CARD)
