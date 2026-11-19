@@ -3,6 +3,28 @@
 Global Solution FIAP 2026.2 • Engenharia de Software 4º ano • Applied Computer Vision
 Arnaldo Viana e Paulo Rodrigues
 
+## Ficha técnica do MVP
+
+**Produto.** Caminho Livre, mapa colaborativo de barreiras de acessibilidade.
+
+**Cidadão e território.** Pedestres com deficiência ou mobilidade reduzida, idosos e cuidadores no entorno da FIAP Paulista, São Paulo (SP). O piloto cobre cerca de 1,2 × 1,5 km.
+
+**Problema.** Relatos sobre barreiras em calçadas e travessias ficam dispersos, e o cidadão tem dificuldade para acompanhar sua resolução.
+
+**Proposta de valor.** O cidadão registra uma barreira no mapa e acompanha seu status. A equipe gestora recebe uma fila de relatos para revisar, priorizar e encerrar.
+
+**Arquitetura e componentes.** O mapa web usa Leaflet e OpenStreetMap. A API FastAPI usa SQLite persistente no Azure App Service. O painel por quadra recebe dados agregados do componente de Big Data. O detector desta disciplina roda localmente e gera anotações para revisão humana. O registro de uma barreira no mapa é manual.
+
+**Fontes de dados.** OpenStreetMap e relatos enviados pelo MVP, incluindo relatos sintéticos identificados como demonstração. O detector usa uma amostra do ROD-Dataset.
+
+**Modelo de IA.** YOLO11n ajustado para 25 classes de objetos urbanos. A identificação da barreira e de sua posição na passagem depende de revisão humana.
+
+**Links.** [MVP público](https://caminholivre-gs.azurewebsites.net/) · [Repositório principal](https://github.com/santos-nikolas/caminho-livre) · [Repositório de visão computacional](https://github.com/Breqsz/caminho-livre-cv)
+
+**Indicadores planejados.** Relatos recebidos e revisados, tempo até a primeira revisão, relatos resolvidos com confirmação e taxa de resolução. A melhoria física requer verificação em campo.
+
+**ODS.** ODS 10, redução das desigualdades. ODS 11, metas 11.2 e 11.7, acesso a transporte e espaços públicos acessíveis.
+
 ## Integrantes
 
 - Guilherme Rocha Bianchini • RM 97974
